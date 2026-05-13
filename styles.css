@@ -168,6 +168,11 @@ body {
   width: var(--card-w);
   height: var(--card-h);
   transform-style: preserve-3d;
+  cursor: pointer;
+}
+
+.deck:empty {
+  cursor: default;
 }
 
 .active-slot {
@@ -392,7 +397,15 @@ body {
   width: 100%;
 }
 
-.card.drawn { z-index: 999 !important; }
+.card.drawn {
+  z-index: 999 !important;
+  cursor: pointer;
+}
+
+.card.drawn .front-actions,
+.card.drawn .front-actions button {
+  cursor: pointer;
+}
 
 .controls {
   display: flex;

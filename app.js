@@ -293,17 +293,28 @@ function flyOutCard(cardEl, direction, onDone) {
   }, 500);
 }
 
+function toggleAnswerOnCard(cardEl) {
+  const ans = cardEl.querySelector(".front-answer");
+  const btn = cardEl.querySelector('[data-act="toggle-answer"]');
+  if (!ans || !btn) return;
+  const isHidden = ans.classList.contains("hidden");
+  ans.classList.toggle("hidden");
+  btn.textContent = isHidden ? "Cevabı Gizle" : "Cevabı Göster";
+}
+
 function bindCardActions(cardEl) {
   cardEl.addEventListener("click", async (e) => {
     const target = e.target.closest("[data-act]");
-    if (!target) return;
+
+    if (!target) {
+      if (cardEl.querySelector(".front-answer")) toggleAnswerOnCard(cardEl);
+      return;
+    }
+
     const act = target.dataset.act;
 
     if (act === "toggle-answer") {
-      const ans = cardEl.querySelector(".front-answer");
-      const isHidden = ans.classList.contains("hidden");
-      ans.classList.toggle("hidden");
-      target.textContent = isHidden ? "Cevabı Gizle" : "Cevabı Göster";
+      toggleAnswerOnCard(cardEl);
       return;
     }
 
@@ -767,6 +778,10 @@ async function saveCardEditor() {
 }
 
 BTN_DRAW.addEventListener("click", drawCard);
+
+DECK_EL.addEventListener("click", () => {
+  if (!BTN_DRAW.disabled) drawCard();
+});
 BTN_SHUFFLE.addEventListener("click", animateShuffle);
 BTN_RESET.addEventListener("click", resetDrawn);
 BTN_OPEN_EDITOR.addEventListener("click", openDeckEditor);
