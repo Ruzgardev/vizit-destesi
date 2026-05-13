@@ -195,8 +195,11 @@ function createCardEl(card, withFront, categoryLabel) {
         ${emptyAns ? "Cevap eklenmemiş." : escapeHtml(card.answer)}
       </div>
       <div class="front-actions">
-        <button type="button" class="btn-mini primary" data-act="toggle-answer">Cevabı Göster</button>
-        <button type="button" class="btn-mini" data-act="put-aside">Tamamdır</button>
+        <button type="button" class="btn-mini primary full" data-act="toggle-answer">Cevabı Göster</button>
+        <div class="front-actions-row">
+          <button type="button" class="btn-mini danger" data-act="remove-permanent" title="Bu kart bir daha gelmesin">Desteden çıkar</button>
+          <button type="button" class="btn-mini" data-act="put-back" title="Bu kartı havuza geri at, tekrar gelsin">Desteye tekrar ekle</button>
+        </div>
       </div>
     </div>`
         : ""
@@ -226,8 +229,11 @@ function attachFrontFace(cardEl, card, categoryLabel) {
       ${emptyAns ? "Cevap eklenmemiş." : escapeHtml(card.answer)}
     </div>
     <div class="front-actions">
-      <button type="button" class="btn-mini primary" data-act="toggle-answer">Cevabı Göster</button>
-      <button type="button" class="btn-mini" data-act="put-aside">Tamamdır</button>
+      <button type="button" class="btn-mini primary full" data-act="toggle-answer">Cevabı Göster</button>
+      <div class="front-actions-row">
+        <button type="button" class="btn-mini danger" data-act="remove-permanent" title="Bu kart bir daha gelmesin">Desteden çıkar</button>
+        <button type="button" class="btn-mini" data-act="put-back" title="Bu kartı havuza geri at, tekrar gelsin">Desteye tekrar ekle</button>
+      </div>
     </div>
   `;
   cardEl.appendChild(front);
@@ -274,25 +280,80 @@ function resetSession() {
   updateStats();
 }
 
+function flyOutCard(cardEl, direction, onDone) {
+  cardEl.style.transition = "transform 500ms ease, opacity 500ms ease";
+  const x = direction === "left" ? "-160%" : direction === "right" ? "60%" : "-50%";
+  const y = direction === "up" ? "-180%" : "-50%";
+  const rot = direction === "left" ? -14 : direction === "right" ? 14 : 0;
+  cardEl.style.transform =
+    `translate(${x}, ${y}) scale(0.85) rotate(${rot}deg) rotateY(180deg)`;
+  cardEl.style.opacity = "0";
+  setTimeout(() => {
+    if (typeof onDone === "function") onDone();
+  }, 500);
+}
+
 function bindCardActions(cardEl) {
-  cardEl.addEventListener("click", (e) => {
+  cardEl.addEventListener("click", async (e) => {
     const target = e.target.closest("[data-act]");
     if (!target) return;
     const act = target.dataset.act;
+
     if (act === "toggle-answer") {
       const ans = cardEl.querySelector(".front-answer");
       const isHidden = ans.classList.contains("hidden");
       ans.classList.toggle("hidden");
       target.textContent = isHidden ? "Cevabı Gizle" : "Cevabı Göster";
-    } else if (act === "put-aside") {
-      cardEl.style.transition = "transform 500ms ease, opacity 500ms ease";
-      cardEl.style.transform =
-        "translate(-50%, -180%) scale(0.85) rotateY(180deg)";
-      cardEl.style.opacity = "0";
-      setTimeout(() => {
+      return;
+    }
+
+    if (act === "put-aside") {
+      flyOutCard(cardEl, "up", () => {
         clearActive();
         setStatus("Hazır. Yeni bir kart çekebilirsin.");
-      }, 500);
+      });
+      return;
+    }
+
+    const uid = cardEl.dataset.uid;
+    if (!uid || !activeDeck) return;
+
+    if (act === "remove-permanent") {
+      activeDeck.cards = activeDeck.cards.filter((c) => c.uid !== uid);
+      sessionRemaining = sessionRemaining.filter((c) => c.uid !== uid);
+      drawn = drawn.filter((c) => c.uid !== uid);
+      try {
+        await persistDeck(activeDeck);
+      } catch (err) {
+        console.error(err);
+      }
+      flyOutCard(cardEl, "left", () => {
+        clearActive();
+        renderVisualDeck();
+        renderDeckSidebar();
+        updateActiveLabel();
+        updateStats();
+        setStatus("Kart desteden kalıcı olarak çıkarıldı.", "ok");
+      });
+      return;
+    }
+
+    if (act === "put-back") {
+      const card = drawn.find((c) => c.uid === uid);
+      drawn = drawn.filter((c) => c.uid !== uid);
+      if (card) {
+        const minGap = Math.min(3, sessionRemaining.length);
+        const maxIdx = sessionRemaining.length;
+        const idx = minGap + Math.floor(Math.random() * Math.max(1, maxIdx - minGap + 1));
+        sessionRemaining.splice(Math.min(idx, sessionRemaining.length), 0, card);
+      }
+      flyOutCard(cardEl, "right", () => {
+        clearActive();
+        renderVisualDeck();
+        updateStats();
+        setStatus("Kart desteye geri eklendi, tekrar karşına çıkacak.", "ok");
+      });
+      return;
     }
   });
 }

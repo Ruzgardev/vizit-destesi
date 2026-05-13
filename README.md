@@ -40,6 +40,17 @@ Yeni deste için dosya ya **dizi** ya da **nesne**:
 - `image` isteğe bağlı; dışa aktarımda da `image` alanı kullanılır. `uid` varsa içe aktarımda korunur.
 - Sadece dizi: `[{ "id", "question", "answer" }, ...]` — deste adı otomatik atanır.
 
+## Kart üzerinde
+
+Çekilen kartta üç buton vardır:
+- **Cevabı Göster / Gizle**: cevabı aç-kapat.
+- **Desteden çıkar**: kart **kalıcı** olarak desteden silinir (Toplam azalır, IndexedDB'ye yazılır).
+- **Desteye tekrar ekle**: kart havuza rastgele bir konuma geri konur, tekrar karşına çıkar (Toplam değişmez).
+
+## Rastgelelik
+
+Kartlar başlangıçta ve `Karıştır` butonunda **Fisher–Yates** ile karıştırılır. Çekiş yığının üstünden olduğu için çekiliş sırası tamamen rastgeledir. Geri eklenen kart `min(3, kalan)` mesafe ötesine konularak hemen tekrar gelmez.
+
 ## Kısayollar (modallar kapalıyken)
 
 `Space` / `Enter` kart çek · `S` karıştır · `R` sıfırla · `C` cevap aç/kapat.
