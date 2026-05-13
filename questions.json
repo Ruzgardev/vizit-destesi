@@ -1,0 +1,797 @@
+[
+  {
+    "id": 1,
+    "question": "Maske ile oksijen uygulamasında dikkat edilmesi gereken noktalardan 5 tanesini yazınız.",
+    "answer": "1. Hastanın yüzüne tam olarok oturan bir maske kullanılmalıdır.\n2. Yüze yerleştirildikten sonra bağları sıkıştırılarak oksijen sızıntısının olmamasına dikkat\nedilmelidir.\n3. Maskenin balonu derin inspirasyonda bile sönmemelidir.\n4. Cilt tahrişi gözlenmeli, gerekli bakım (ağız, burun...) verilmelidir.\n5. Maske ile uygulamada, hasta boğulma hissine kapılacağından istemeyebilir. Bir süre yanında\nkalınarak rahatlaması sağlanmalıdır.\n6. Maske zaman zaman kaldırılarak cilt bakımı verilmelidir.\n7. Oksijen maskesi, CO2  retansiyonu fazla olan hastalarda kullanılmamalıdır."
+  },
+  {
+    "id": 2,
+    "question": "Solunum yollarındaki sekresyonların çıkarılmasını kolaylaştıran uygulamalar nelerdir?",
+    "answer": "1. 1.Hidrasyon,\n2. nemlendirme- buhar verme,\n3. nebulizasyon,\n4. postural drenaj"
+  },
+  {
+    "id": 3,
+    "question": "Oksijen tedavisi sırasında gelişebilecek komplikasyonlar nelerdir?",
+    "answer": "1. Oksijene bağlı hipoventilasyon\n2. atelektazi,\n3. retrolental fibroplazi\n4. oksijentoksitesi"
+  },
+  {
+    "id": 4,
+    "question": "Derin solunum egzersizi nasıl yapılır. Anlatınız.",
+    "answer": "• Hasta yatağında veya sandalyede rahat oturur pozisyona getirilir.\n• Yatakta ise dizleri büktürülerek abdominal kaslardaki gerginlik azaltılır\n• Hastanın elleri kostaların altına, soluk alıp verdiğinde her iki yanda diyafragmayı hissedecek\nşekilde yerleştirilir.\n• Hasta derin nefes alır, bu sırada kostaların altına yerleştirilmiş olan elleri orta parmakları\nbirbirine değmelidir. Böylece inspirasyonda parmakların birbirinden uzaklaştığı hissedilir.\n• 5'e kadar sayarak nefesini tutarak hasta daha sonra nefesini ağızdan yavaşça bırakır."
+  },
+  {
+    "id": 5,
+    "question": "Öksürme mekanizmasını sırasıyla anlatınız.",
+    "answer": "• Derin bir inspirasyon\n• Glottisin kapanması\n• Solunum kaslarının aktif kontraksiyonu\n• Glottisin açılması"
+  },
+  {
+    "id": 6,
+    "question": "Aspirasyon teknikleri nelerdir?",
+    "answer": "Hangi durumlarda uygulanır?\n• Orofarengeal ve nazofarengeal aspirasyon: Hasta etkili bir şekilde öksürebildiği, ancak\ntükürme veya yutmayla sekresyonları temizleyemediği zaman yapılır.\n• Orotrakeal ve nazotrakeal aspirasyon: Pulmoner sekresyonları olan hasta öksüremediği ve\nsuni bir havayoluna sahip olmadığı zaman yapılır.\n• Yapay hava yolu aspirasyonu: Endotrakeal tüp veya trakeostomi tüpü gibi suni bir hava yolu\nyardımıyla gerçekleştirilir."
+  },
+  {
+    "id": 7,
+    "question": "Oral airway hangi amaçla kullanılır?",
+    "answer": "Hastaya uygun büyüklük nasıl belirlenir?\nOral airway, dilin orofarenks içine yer değiştirerek trakeanın tıkanmasına engel olur.\nAirway büyüklüğü, ağzın köşesinden kulağın hemen altındaki çene açısına kadar olan mesafe\nölçülerek belirlenir."
+  },
+  {
+    "id": 8,
+    "question": "Aspirasyon esnasında mukoz membranların zarar görme riskini ve hipoksemiyi azaltmak için nelere dikkat etmek gerekir?",
+    "answer": "• Hasta için uygun aspirasyon basıncını ve aspiratör tipi seçilir.\n• Uygun katater numarası seçilir.\n• Aspirasyon kateteri yerleştirilirken aspiratör kapalı tutulur.\n• Kateter, bağlantı tüpündeki sekresyonlar temizlenene dek küvet içindeki suyu aspire ederek\nçalkalanır.\n• Kateterle trakea içine girerken aspirasyon basıncının uygulanmaması.\n• Kateteri daha kolay giriş için kayganlaştırma.\n• On saniyeden daha uzun sürmemesi."
+  },
+  {
+    "id": 9,
+    "question": "Aspirasyon işleminin 10 saniyeden uzun sürmesi sonucu oluşabilecek komplikasyonlar nelerdir?",
+    "answer": "• Kardiyopulmoner fonksiyonları tehlikeye atabilir.\n• Hipoksiye ve mukozanın yaralanmasına neden olabilir."
+  },
+  {
+    "id": 10,
+    "question": "Solunum yollarının aspirasyonuna bağlı gelişebilecek komplikasyonlar nelerdir?",
+    "answer": "1. Hipoksi,\n2. Mukoza travmaları,\n3. Atelektazi,\n4. Enfeksiyon,\n5. Vagal stimulasyon (Nervus Vagusun uyarılması),\n6. Kardiyak arrest,\n7. Solunum arresti"
+  },
+  {
+    "id": 11,
+    "question": "Oksijen tedavisinde dikkat edilmesi gereken ilkelerden 5 tanesini söyleyiniz.",
+    "answer": "1. Oksijen vermek için doktor istemi olmalıdır.\n2. Hastaya yapılacak işlem ve kullanılacak araç-gereç tanıtılmalıdır.\n3. Oksijen uygulamadan önce hastanın solunum yollarının açık olup-olmadığı kontrol edilmeli,\nsekresyon varsa aspire edilmelidir.\n4. Oksijen yanmayı hızlandıran bir gazdır. Küçük bir kıvılcım bile yangına neden olur. Hastanın\nodasına \"Sigara içilmez\" yazısı yazılmalı, sağaltım sırasında elektrikli araçlar kullanılmamalıdır.\nAyrıca odada elektrik kaçağı olup-olmadığı kontrol edilmelidir.\n5. Hastanın rahat edebileceği bir pozisyon verilir.\n6. Oksijen tedavisinin uygulandığı tarih, başladığı saat, kullanılan yöntem, hastanın solunum ve\nnabız hızı kaydedilmelidi\n8. Oksijen sudan geçirilerek nemlendirilir. Nemlendirir haznenin 2/3'ünü veya ½ sini distile su\nveya steril serum fizyolojik ile doldurmak gerekir. Kuruluğa neden olacağı için hastalara ağız\nbakımı verilmelidir.\n9. Oksijen tüpü kullanılıyorsa ikinci bir oksijen tüpü yedek olarak bulundurulmalıdır.\n10. Hastanın fiziksel hijyeni ve rahatlığı ile oksijen kullanımı arasında ilişki vardir. Hasta rahatsız\nve huzursuz olduğunda bazal metabolizma hızlanır ve oksijen gereksinimi artar. Hastanın\nhareket etmesine, fiziksel hijyenine yardım hastanın oksijen gereksinimini azaltır.\n11. Hastanın duygusal rahatlığını sağlamak da hastanın oksijen gereksinimini azaltır. Korku, öfke,\nendişe vücudu kaçış veya mücadele hazırlayan savunma yanıtını başlatabilir. Hastanın\nendişeleri giderilmelidir.\n12. Yüksek yoğunlukta oksijen uygulanan durumlarda oksijen sağaltımı birden kesilmemeli miktar\nyavaş yavaş azaltılarak hastanın atmosfer havasına alışmasına olanak tanınmalıdır."
+  },
+  {
+    "id": 12,
+    "question": "Retrolental fibroplazi nedir?",
+    "answer": "Prematüre bebeklerde, yüksek yoğunlukta oksijen uygulamasının neden olduğu göz merceği\narkasındaki bağ dokusu artimi, retinada ayrilma ve kalıcı körlük meydana getirebilen bir durumdur.\nErişkinlerde ise, oksijen yüksek konsantrasyonda verilirse kornea hasarına neden olur."
+  },
+  {
+    "id": 13,
+    "question": "Oksijen toksitesi belirtileri nelerdir?",
+    "answer": "• Sırt ağrısı,\n• Bulantı ve kusma,\n• Ekstremitelerde uyuşukluk,\n• Halsizlik,\n• Kuru öksürük"
+  },
+  {
+    "id": 14,
+    "question": "Hastalara aspirasyon hangi durumlarda uygulanır?",
+    "answer": "Hasta öksürmeyle solunum yollarındaki sekresyonları temizleyemediği zaman uygulanır."
+  },
+  {
+    "id": 15,
+    "question": "Oksijen uygulama yöntemlerini söyleyiniz.",
+    "answer": "1. Maske,\n2. nazal kanül,\n3. oksijen çadırı\n4. mekanik ventilasyon,\n5. nazofarengeal kateter"
+  },
+  {
+    "id": 16,
+    "question": "Nazofarengeal yolla oksijen uygulamada, çocuklar, kadınlar ve erkekler için kaç no'lu katater kullanılır.",
+    "answer": "Çocuklar için 8-10 F\n, kadınlar için 10-12 Fr ve\nerkekler için 2-14 Pr. no'lu kateter"
+  },
+  {
+    "id": 17,
+    "question": "Aspirasyon işleminde hangi aseptik teknik kullanılır?",
+    "answer": "Kaç saniye sürer? Kaç defadan faza uygulanmaz?\nCerrahi aseptik teknik\n10 saniye 3 defa"
+  },
+  {
+    "id": 18,
+    "question": "Aspirasyon uygulamalarında hastaya hangi pozisyon verilir?",
+    "answer": "Bilinci açık hastalarda;\norofarengeal aspirasyon için, başı bir tarafa dönük olacak şekilde semi-Fowler's\nNazofarengeal aspirasyon için boyun hiperekstansiyonda olacak şekilde semi-Fowler's pozisyonda\nyatırınız.\nBilinci kapalı olan hastayı yüzü hemşireye dönük yan yatış pozisyonu\nİLAÇ UYGULAMALARI"
+  },
+  {
+    "id": 19,
+    "question": "Bir defada 300mg Prednol ampul I.M. olarak istem edilmiştir. Elimizde 5ml. İle sulandırılarak verilen 250 mg. Lik ampuller bulunmaktadır. Hastaya bir defada kaç ml.",
+    "answer": "Prednol verilmelidir?\n5 ml 250\nX       300                          250xX= 5x300                X=6 ml."
+  },
+  {
+    "id": 20,
+    "question": "Bir defada 1g. Ampisina Kapsül P.O. olarak istem edilmiştir. Elimizde 250mg. Ampisina kapsül bulunmaktadır. Hastaya bir defada kaç kapsül verilmelidir?",
+    "answer": "1gr.=1000mg.                                                       375mg    1kapsül\n750mg      X\n375xX=750x1                        X=2"
+  },
+  {
+    "id": 21,
+    "question": "Dakika damla sayısı 10 olan IV sividan 3 saatte kaç ml sıvı verilmiş olur?",
+    "answer": "10 damla= X x 20            X= 90 ml."
+  },
+  {
+    "id": 22,
+    "question": "Intravenöz infüzyon amacıyla ön kolda ve el sırtında kullanılan venler hangileridir?",
+    "answer": "o Dorsal metakarpal venler,\no Bazilik ven,\no Sefalik ven,\no Radyal ven,\no Medyan kübital ven\no Aksesuar sefalik ven"
+  },
+  {
+    "id": 23,
+    "question": "Intravenöz sıvı tedavisinin komplikasyonlarından infiltrasyon nasıl gözlemlenir?",
+    "answer": "Intravenöz sivi, vene giriş bölgesi etrafında subkütanöz boşluğa girdiği zaman kabarıklık, solgunluk,\nsıvı akış hızının azalması ya da yokluğu, ağrı ile ilgili değerlendirmeler yaparak gözlemleriz."
+  },
+  {
+    "id": 24,
+    "question": "intramüsküler, subkutan, intravenöz, intradermal enjeksiyonlarda iğne numaraları ve iğne boyutlarını söyleyiniz.",
+    "answer": ""
+  },
+  {
+    "id": 25,
+    "question": "Kan transfüzyonunda oluşabilecek reaksiyonlar nelerdir?",
+    "answer": "1. Hiperkalemi,Hipokalsemi\n2. Dolaşım yüklenmesi\n3. Enfeksiyon ajanlarının taşınması\n4. Hemolitik Reaksiyon\n5. Febril Reaksiyon (Titreme, Ateş)\n6. Allerjik Reaksiyon"
+  },
+  {
+    "id": 26,
+    "question": "Hava kilidi tekniği neden uygulanır?",
+    "answer": "Kaç ml hava?\n0,2-0,3 ml; Kas içindeki ilacın üstüne verilen hava, ilacın cilt altı dokusuna dönüşünü engeller. Ayrıca\niğnenin içinde kalan son ilacın da hava ile itilerek kasa verilmesini sağlar. Böylece iğne geri çekilirken\naz miktardaki bu ilaç cilt altına sızmamış olur."
+  },
+  {
+    "id": 27,
+    "question": "Hastalarda enjeksiyon uygulamasına bağlı rahatsızlıkların en aza indirilmesi için, hemşire hangi uygulamaları yapmalıdır?",
+    "answer": "• -Uygun incelikte ve uzunlukta pürüzsüz ve keskin ucla löne kullanılmalıdır.\n• -Hastaya kas gerginliğini azaltacak rahat pozisyon verilmelidir. Hastaya derin nefes almasını\nsöylemek de gerginliği azaltır.\n• Uygun bölge seçimi yapılmalıdır.\n• -Enjektöre ilaç çektikten sonra, iğne ilaçla bulaşmış olacağından özellikle irritan ilaçlarda iğne\nmutlaka\n• değiştirilmelidir\n• -Çok duyarlı bireylerde, enjeksiyondan önce bölgeye 2 dk. süreyle buz ya da soğuk kompres\nuygulanabilir.\n• İlacın doku içine yavaş verilmesi ağrıyı azaltan ve ilacın doku içine yayılımını ve emilimini\nkolaylaştıran bir  yöntem olduğunda ilaç yavaş verilmeli.\n• Enjeksiyon sırasında hastanın dikkatini başka yöne çekmek, bu sırada onunla konuşmak da\ngerilimi ve ağrının algılanmasını azaltan önlemlerdir,\n• Çok miktarda ilaç ağrıyı başlatabilir. Bu nedenle her bölgeye yapılabilecek ilaç miktarının\nbilinmesi gerekir. 1.Move S. enjeksiyonlarda iğne çabuk ve düzgün bir şekilde batırılmalıdır.\n• Igne dokunun içindeyken enjektör kımıldatılmadan, sabit tutulmalıdır. Aksi halde iğne, doku\niçinde hareket ederek daha fazla doku yıkımına yol açar.\n• -Sakıncası yoksa enjeksiyondan sonra bölgenin dairesel biçimde hafifce ovulması, ilacın\ndokular arasında dağılımını arttırır ve emilimini kolaylaştırır."
+  },
+  {
+    "id": 28,
+    "question": "Narkotik ilaçlar nasıl saklanır?",
+    "answer": "Narkotik ilaçlar kullanıldığında dikkat edilmesi gerekenler nelerdir?\nNarkotik ilaçlar çift kilitli dolaplarda saklanmalıdır. Bunlar kullanıldığında, kesinlikle rapor tutmak\ngerekir. Bu rapora hastanın adı, narkotik ilacın miktarı, istemi veren hekimin adı, uygulayan\nhemşirenin adı, tarih ve saat kaydedilir. Narkotiğin ampul içinde artan bir dozu varsa, bunun da yok\nedildiğini belirtir bir not düşülür. Bu işlemi gözleyen bir hemşirenin de tanık olarak imza atması uygun\nolur. Hemşireler nöbet değişimleri sırasında narkotik ilaçları kesinlikle sayarak teslim alıp teslim\nvermelidirler. Sayımda bir eksiklik görülürse derhal bildirilmelidir"
+  },
+  {
+    "id": 29,
+    "question": "Parenteral İlaç uygulamaları hangi durumlarda tercih edilir?",
+    "answer": "1. İlaçların çabuk etki göstermesi istendiğinde,\n2. Hasta oral yolla ilaç alamadigindığında\n3. ilacın başka veriliş formunun olmadığı durumlarda\n4. llacın, oral yolla alındığında sindirim sisteminde etkisiz hale geldiği durumlarda,\n5. Bilinçsiz hastalarda tercih edilir."
+  },
+  {
+    "id": 30,
+    "question": "Buruna ilaç uygularken dikkat edilmesi gereken noktalar nelerdir?",
+    "answer": "1. İşlemden önce hastaya kağıt mendil verilmelidir.\n2. Hasta oturuyorsa başını arkaya doğru iyice eğmesi söylenir.\n3. Eğer hasta yatıyorsa başı yastık üzerinden geriye doğru kaydırılır. Bu pozisyon, ilaç\ndamlalarının burun deliklerine iyice yayılmasını sağlar.\n4. Damlalığa her iki burun deliğine yetecek kadar ilaç çekilmeli ve artan ilaç, ilaç şişesine\nboşaltılmamalıdır.\n5. Hemşire burnun ucunu başparmağıyla yukarı kaldırmalı ve diğer elindeki damlalığın ucunu,\nburun deliğinin içine 0.6 cm kadar sokmalıdır.\n6. İlaç sırasıyla her iki burun deliğine de damlatılmalıdır. Damlalığın ucu burun mukozasına\ndeğdirilmemelidir. Bu durum hastanın hapşırmasına neden olacağı gibi mukozayı da\nzedeleyebilir.\n7. İlacın dışarı akmaması için hasta bir kaç dakika pozisyonunu korumalıdır. Hastalar genellikle,\norofarenksten ağızlarına gelen ilacı tükürmek isterler."
+  },
+  {
+    "id": 31,
+    "question": "Kulağa ilaç damlatılırken dikkat edilmesi gereken noktalar nelerdir?",
+    "answer": "1. Hastayı rahatsız etmemesi için kulağa damlatılacak ilacın ilik olması gerekir. Eğer varsa, normal\nsalin ile ıslatılmış pamuk tamponla bölge temizlenmelidir.\n2. Pozisyon vermek için hastaya sağlam kulağı üzerine yatması söylenmelidir. Eğer hasta oturuyorsa,\nbaşını sağlam kulağının olduğu yöne iyice eğmelidir.\n3. Damlalığa yeteri kadar ilaç çekilmeli; artan ilaç, ilaç şişesine tekrar boşaltılmamalıdır.\n4.Kulak kepçesi, aşağıda önerilen biçimde çekildiğinde diş kulak yolu düzleşecek, damlatilan llac\nkolayca kanal içine yayılarak kulak zarına ulaşacaktır. Yetişkin bireyde kulak kepçesinin kıkırdak kısmı\nyukarı ve geriye doğru, üç yaşına kadar olan çocuklar ve bebeklerde ise aşağı ve geriye doğru\nçekilmelidir.\n5.Damla, doğrudan doğruya timpan zar üzerine değil, diş kulak yolunun çeperine damlatılmalıdır. Aksi\nhalde hastaya rahatsızlık verir.\n6. Damla damlatılırken damlalığın ucu, kulak kepçesine ya da kulak yoluna değdirilmemeli, doku\nzedelenmemelidir\n7. Damla damlatıldıktan sonra kulak kepçesi bırakılmalı ve ilacın dışarı akmaması için hastaya bir süre\nsonra pozisyonunu koruması söylenmelidir.\nİlacın dış kulak yolu içinde timpan zarına doğru hareket etmesini kolaylaştırmak için, tragus (diş kulak\nyolu ağzındaki kıkırdaksı çıkıntı) üzerine bir kaç defa nazikçe bastırılmalıdır.\n9. Eğer gerekiyorsa, dış kulak yoluna gevşek bir pamuk tampon yerleştirilir. Basınç yapacağından ve\ndışarıya doğru olan akıntıyı engelleyeceğinden, sıkı tamponlar kullanılmamalıdır. 30 dakika sonra\ntampon kulaktan çıkarılmalıdır. Eğer diğer kulağa da ilaç damlatmak gerekiyorsa, 5 dakika\nbeklenmelidir."
+  },
+  {
+    "id": 32,
+    "question": "Ventrogluteal bölge tespitini anlatınız.",
+    "answer": "• Enjeksiyon bölgesinin saptanması için hemşire hastanın sağ kalçasında sol elini, sol kalçasında\nsağ elini kullanmalıdır.\n• El ayasının alt kısmı büyük trokantere yerleştirilir\n• Baş parmak hastanın kaşığını gösterirken diğer dört parmak hastanın başını gösterir.\n• İşaret parmagi anteriyor superiyor ilyak spinaya yerleştirilir.\n• Orta parmak mümkün olduğu kadar arkaya doğru açılır ve ilyak kristaya dokunar. Böylece\nişaret, orta parmak ve ilyak kristayla sınırlı bir üçgen alan oluşturulur"
+  },
+  {
+    "id": 33,
+    "question": "Z tekniği ile enjeksiyon uygulamasının sebebi nelerdir.",
+    "answer": "Deri altı dokusu için aşırı derecede tahriş edici olan ve /veya deri altını kalıcı şekilde boyayan demir\ngibi ilaçların intramüsküler enjeksiyonunda kullanılır."
+  },
+  {
+    "id": 34,
+    "question": "intradermal enjeksiyon uygulaması için sıklıkla kullanılan bölgeleri söyleyiniz.",
+    "answer": "ön kolun iç yüzü, üst kolun arka yüzü, sırtın üst yüzü ve üst göğüs bölgesidir."
+  },
+  {
+    "id": 35,
+    "question": "Intravenöz sıvı tedavisinin komplikasyonlarını söyleyiniz.",
+    "answer": "• Infiltrasyon,\n• flebit,\n• dolaşım yüklenmesi,\n• emboli,\n• kanama\n• enfeksiyondur.\n•"
+  },
+  {
+    "id": 36,
+    "question": "Kan transfüzyonu sırasında hemolitik reaksiyon gerçekleşirse hemşirenin yapması gereken uygulamalar",
+    "answer": "• Kan transfüzyonu derhal durdurulur,\n• %0.9'luk NaCl solüsyonu takılır,\n• damar yolu açılır,\n• Hekime haber verilir,\n• Her 10-15 dakikada yaşam bulguları ölçülür ve şok yönünden değerlendirilir,\n• mesane kateterizasyonu uygulanır ve aldığı çıkardığı sıvı saatlik olarak ölçülür,\n• Oksijen verilir,\n• Vazopressör ilaçlar ve epinefrin hekim istemine göre verilir."
+  },
+  {
+    "id": 37,
+    "question": "Parenteral ilaç uygulamalarında 4 temel enjeksiyon tipi nelerdir?",
+    "answer": "1. Intramüsküler enjeksiyon\n2. Subkutan enjeksiyon,\n3. Intrakutan/intradermal enjeksiyon,\n4. intravenöz enjeksiyon"
+  },
+  {
+    "id": 38,
+    "question": "Deri aplikasyonunda dikkat edilmesi gereken durumlar nelerdir?",
+    "answer": "• Deri kuru ve temiz olmalıdır. Daha önce sürülmüş ilaçlar temizlenmelidir.\n• Temizlik işlemi sabun ve suyla yapılmalıdır. Böylece yağ bezlerinin gözenekleri açılarak emilim\nkolaylaştırılmış olur. Gerekiyorsa yerel sıcak uygulama yapılabilir. Böylece kan dolaşımı\nartacağından emilim hızlanır.\n• Losyonlar, süspansiyon özellikte oldukları için kullanılmadan önce çalkalanmalı ve bir parça\ngaz beziyle deriye uygulanmalıdır.\n• Krem ve merhemler ovularak deriye yedirilmelidir. Ovma önerilmiyorsa, yumuşak bir\nhareketle ilaç deri Üzerine yayılmalıdır.\n• İlaç vücudun sırt gibi geniş bir bölgesine sürülecekse, hastanın ürpermemesi için avuç içinde\nbir süre Isıtılmalıdır.\n• İlaç pudra şeklinde ise, hastanın bunu solumamasına dikkat edilmelidir.\n• llaç maddesi, hiç bir zaman gerektiğinden fazla kullanılmamalıdır.\n• Bazı ilaçlar, ilacı uygulayanın da elinden kolayca emilebilir özellikte olabilir. Bu durumda\nhemşire eldiven giymelidir. Yine hastanın rahatsızlığı bulaşıcı ise, eldiven kullanılmalıdır.\nBunların dışında da eldiven kullanarak hiçbir deri lezyonuyla doğrudan doğruya temas\netmemek, enfeksiyonları önlemek açısından önemlidir."
+  },
+  {
+    "id": 39,
+    "question": "ilaç uygulamalarında 8 doğru ilkeyi söyleyiniz.",
+    "answer": "1. Doğru ilaç\n2. Doğru doz\n3. Doğru hasta\n4. Doğru zaman\n5. Doğru yol\n6. Doğru ilaç şekli\n7. Doğru kayıt\n8. Doğru yanıt\n9. Reddi kabul\n10)Hasta eğitimi"
+  },
+  {
+    "id": 40,
+    "question": "%10'luk povidon-iyot solüsyonundan 500 ml %2'lik povidon-lyot solüsyonu hazırlamak için kaç ml povidon-iyot solüsyonu kaç ml distile su gereklidir?",
+    "answer": "LIN IM?\nC1xV1=C2xV2          500x%2=%10 xx\nX=100 ml. Povidon iyot 400 ml. Distile Su"
+  },
+  {
+    "id": 41,
+    "question": "600 ml sivinin 8 saatte verilebilmesi için dakika damla sayısını hesaplayınız.",
+    "answer": ""
+  },
+  {
+    "id": 42,
+    "question": "Kan transfüzyon öncesinde neler kontrol edilmelidir? Açıklayınız.",
+    "answer": "• -Donörün kan grubu,\n• -Donörün Rh faktörü,\n• -Kanın alındığı tarih,\n• -Alıcının adı,\n• -Alıcının kan grubu,\n• -Alıcının Rh faktörü\n• -Cross-match yapılıp yapılmadığı kontrol edilmelidir."
+  },
+  {
+    "id": 43,
+    "question": "Subkutan enjeksiyon bölgelerini söyleyiniz.",
+    "answer": "• Üst kolların dış yüzü\n• kostal hattın altındaki ilyak kristalara kadar olan karın bölgesi,\n• uyluğun ön yüzü, sırtın üst kısmı\n• arka kalça bölgesi"
+  },
+  {
+    "id": 44,
+    "question": "Intramüsküler enjeksiyon bölgelerini söyleyiniz.",
+    "answer": "• Dorsogluteal,\n• Ventrogluteal,\n• Rektus femoris,\n• Vastus lateralis,\n• Delotiod,\n• Triseps"
+  },
+  {
+    "id": 45,
+    "question": "Intramüsküler, subkutan, intradermal enjeksiyonlarda verilebilecek ilaç miktarlarını söyleyiniz.",
+    "answer": "Intromüsküler    * 1-3 ml\nIntradermal         *0,1-0,5 ml\nSubkutan             *0,5-1 ml"
+  },
+  {
+    "id": 46,
+    "question": "Intramüsküler enjeksiyon amacıyla kullanılan dorsogluteal bölgenin tespiti nasıl belirlenir?",
+    "answer": "posteriyor superiyor ilyak spina ile femurun büyük trokenterini birleştiren hayali çapraz çizginin bölgedir."
+  },
+  {
+    "id": 47,
+    "question": "Intramüsküler enjeksiyonun komplikasyonları nelerdir?",
+    "answer": "1. ilacın yanlışlıkla damara verilmesi,\n2. apse,\n3. nekroz,\n4. derinin dökülmesi,\n5. sinir yaralanmaları,\n6. uzun süreli ağrı ve\n7. periostit"
+  },
+  {
+    "id": 48,
+    "question": "Kan transfüzyonuna bağlı reaksiyon geliştiğinde ne yapılır?",
+    "answer": "Kan akışı durdurulur, kan seti çıkarılarak sıvı seti takılır, %0.9'luk NaCl solüsyonu gönderilerek damar\nyolunun açıklığı sağlanır, Hemen hekime haber verilir.\nSİNDİRİM SİSTEMİ UYGULAMALARI"
+  },
+  {
+    "id": 49,
+    "question": "Hastanede hastaların beslenmesini olumsuz etkileyen etmenler nelerdir?",
+    "answer": "• iştahsızlık\n• Huzursuzluk\n• İlaçlar\n• Tetkik için aç bekleme\n• Ortam ve yemek zamanlarındaki değişiklikler\n• Hastane yemeklerine ve diyete uyum sağlayamama\n• Besin tüketiminin takibinin iyi yapılmaması"
+  },
+  {
+    "id": 50,
+    "question": "Hastanın beslenme gereksinimlerini karşılama yolları nelerdir?",
+    "answer": "• Ağız yolu /Oral yol,\n• Enteral beslenme,\nNazogastrik yol-\nNazoduedonal yol-\nNazojejunal yol –\nGastrostomi yoluyla\nJejunostomi yoluyla,\n• Parenteral yol"
+  },
+  {
+    "id": 51,
+    "question": "Enteral beslenme nedir?",
+    "answer": "Sindirim sistemi işlevleri olan ancak oral yoldan beslenemeyen hastalarda besinlerin bir tüp aracılığı\nile doğrudan mide, duedonum veya jejenuma verilmesidir."
+  },
+  {
+    "id": 52,
+    "question": "Enteral beslenme endikasyonları nelerdir?",
+    "answer": "• Yarı bilinçli ya da bilinçsiz hastalar\n• Felçli hastalar\n• Ağız, yüz yaralanması ya da ameliyatı olan hastalar\n• Çiğneme ve yutma problemi olan hastalar\n• Emme ve yutma refleksi olmayan prematüre bebekler\n• Anoreksiya nevrozalı hastalar\n• Özofagus hastalıkları (kanserler, yaralanma vb)\n• Sindirim sistemi hastalıkları (pankreatit vb)\n• Organ yatmezlikleri (karaciğer yetmezliği, böbrek yetmezliği)\n• Ameliyat öncesi hazırlık\n• Ameliyat sonrası beslenme"
+  },
+  {
+    "id": 53,
+    "question": "Enteral beslenmenin avantajları nelerdir?",
+    "answer": "• Barsak işlevlerinin kısa sürede normale dönmesine yardımcı olur\n• Infeksiyon riskinin düşük olması ve gereksinimleri karşılaması açısından total parenteral\n(damar yoluyla) beslenmeden daha güvenlidir.\n• Fizyolojiye uygundur.\n• Uygulanması kolaydır\n• Total parenteral beslenmeye göre ucuzdur\n• Metabolik ve septik komplikasyon görülme oranı düşüktür\n• Az personelle uygulanır"
+  },
+  {
+    "id": 54,
+    "question": "Mide intübasyonu ne demektir?",
+    "answer": "Mideye burun, ağız ya da gastrostomi açıklığı yolu ile tüp yerleştirilmesine \"mide intübasyonu (gastrik\nentübasyon)\" denir."
+  },
+  {
+    "id": 55,
+    "question": "Nazogastrik veya orogastrik tüp uygulaması'nda tüpü yutturmadan önce tüpün ne kadarının ilerletileceğini belirlemek için ölçüm nasıl yapılır?",
+    "answer": "• Nazogastrik tüpü: hastanın burun ucundan kulak memesine oradan ksifoidin alt ucuna kadar\nuzatınız (55-65 cm). Ksifoidin alt ucuna gelen noktayı kalem veya flasterle işaretleyiniz.\n• Orogastrik yolla: uygulayacaksanız tüpün ucunu hastanın dudaklarının dikey orta hattı\nüzerine yerleştiriniz, buradan kulak memesine, daha sonra da sternumun ksifoid çıkıntısına\nkadar uzatıp kalem veya flaster ile işaretleyiniz."
+  },
+  {
+    "id": 56,
+    "question": "Nazogastrik veya orogastrik tüp uygulaması'nda hangi bulgular tüpün trakeaya girdiğini gösterir.",
+    "answer": "Öksürme, Konuşamama, Boğulma Hissi, Siyanoz, Dispne"
+  },
+  {
+    "id": 57,
+    "question": "Nazogastrik veya orogastrik tüp uygulaması'nda tüpün doğru yerde olup olmadığını belirlemede kullanılan yöntemler nelerdir? Açıklayınız.",
+    "answer": "• Enjektörle mideye verilen hava sesini steteskopla dinleme\n• Mide sıvısının ph ve renginin değerlendirilmesi\n• Röntgen"
+  },
+  {
+    "id": 58,
+    "question": "Nazogastrik veya orogastrik tüp uygulaması'nda beslenme tüpünün yeri hangi durumlarda kontrol edilmelidir.",
+    "answer": "Tüp ilk yerleştirildiğinde, her aralıklı beslemeye başlamadan önce, sürekli beslenmeler sırasında"
+  },
+  {
+    "id": 59,
+    "question": "Nazogastrik veya orogastrik tüp yolu ile besleme hangi yöntemlerle yapılır. Bunlar nelerdir?",
+    "answer": "Sürekli, aralıklı beslenme"
+  },
+  {
+    "id": 60,
+    "question": "Nazogastrik veya orogastrik tüp yolu ile aralıklı besleme kaç şekilde yapılır. Bunlar nelerdir?",
+    "answer": "huni/enjektör, damla düzeni beslenme seti"
+  },
+  {
+    "id": 61,
+    "question": "Nazogastrik veya orogastrik tüple beslenen hastalarda gelişebilecek komplikasyonlar nelerdir?",
+    "answer": "Pnömoni, Bulantı - Kusma, Diyare ve Abdominal Kramplar, Konstipasyon, Dehidratasyon, Glikozüri ve\nsık idrar yapma"
+  },
+  {
+    "id": 62,
+    "question": "Nazogastrik veya orogastrik tüp yolu ile ilaç verirken uyulması gereken ilkeler nelerdir?",
+    "answer": "• Mümkünse ilacin sıvı formu kullanılmalı,\n• Sıvı ilaç bile olsa verilmeden önce su ile dilüe edilmeli,\n• Tablet veya kapsül formunda ise kapsülün oçilip açılmayacağı tabletin ezilip\nezilmeyeceğinden emin olunuz.\n• Ezilen tabletler veya açılan kapsüller oda ısısındaki suda eritilmelidir.\n• ilaçları vermeden önce ve verdikten sonra sonda yoluyla su verilmelidir.\n• Birden fazla ilaç verilecekse birbirine karıştırılmamalı her ilaç ayrı verilmeli ve her ilaç ayrı\nverilmelidir. Amaç ilaç etkileşimini önlemektir.\n• İlaçların önerilen kullanılış şekline (aç/tok) dikkat ediniz.\n• İlaçları hekime danışmadan kesinlikle beslenme solüsyonlarının içine karıştırmayınız"
+  },
+  {
+    "id": 63,
+    "question": "Nazogastrik tüpün uzun süre kalmasına bağlı gelişen komplikasyonlar nelerdir?",
+    "answer": "• Hastanın burun delikleri çevresindeki deride erezyon,\n• Sinüzit,\n• parotitis (tükürük bezi iltihabı),\n• özofajit (özofagus mukozasının iltihabı),\n• özofagotrakeal fistül (özofagus ile trakea arasında bir açıklığın oluşması),\n• mide ülseri,\n• ağız ve akciğer enfeksiyonları,\n• Sivi elektrot dengesizliği."
+  },
+  {
+    "id": 64,
+    "question": "Total parenteral beslenme nedir?",
+    "answer": "Sindirim sistemi işlevleri yetersiz olan hastalarda venäz yolla uygulanan beslenme desteğidir."
+  },
+  {
+    "id": 65,
+    "question": "Rektal tüp nedir?",
+    "answer": "Ne işe yarar?\nRektal tüp, genellikle kauçuk veya plastikten yapılmış, içinde solüsyon veya gazın geçeceği bir-iki\ndeliği olan tüptür. Rektal tüp, peristaltizmi uyarır, anal sfinkteri açık tutarak gazın çıkması için bir yol\noluşturur ve doğal yolla çıkarılamayan karındaki gazın çıkarılmasını sağlar."
+  },
+  {
+    "id": 66,
+    "question": "Lavman nedir?",
+    "answer": "Ne için yapılır?\nLavman, rektum ve sigmoid kolona solüsyon verilmesidir. Lavmanlar konstipasyonu gidermek,\nmuayeneye, radyolojik tetkiklere ve cerrahi girişimlere hazırlamak, bağırsak mukozasında yerel veya\nsistemik  etki gösteren ilaçlar vermek amacı ile uygulanırlar\nbireyi"
+  },
+  {
+    "id": 67,
+    "question": "Lavman çeşitleri nelerdir?",
+    "answer": "• Temizleyici Lavman\n• Yağ-Retansiyon Lavmani,\n• Gaz çıkarıcı Lavman,\n• Tedavi edici Lavman"
+  },
+  {
+    "id": 68,
+    "question": "Temizleyici lavman nedir?",
+    "answer": "Hangi amaç için uygulanır?\n• Konstipasyonu ve fekal impakşın gidermek,\n• X-ray incelemeleri,\n• endoskopi,\n• cerrahi girişimler veya doğuma hazırlık için bağırsakları boşaltmak.\n• Bağırsak jimnastiği programı başlatmak için bağırsakları boşaltmak"
+  },
+  {
+    "id": 69,
+    "question": "Temizleyici lavman solüsyonları nelerdir?",
+    "answer": "Musluk Suyu, Normal Tuz Solüsyonu, Hipertonik Solüsyonlar, Sabun Solüsyonu"
+  },
+  {
+    "id": 70,
+    "question": "Nazogastrik tüple beslenen hastalarda bulantı-kusma nedenlerini söyleyiniz.",
+    "answer": "• Tüpün yerleştirilmesinden hemen sonra beslenmeye geçme\n• Tüpün uygun yerde olmaması,\n• Hızlı beslenme,\n• Fazla miktarda besin verilmesi,\n• Beslerken uygun pozisyon verilmemesi."
+  },
+  {
+    "id": 71,
+    "question": "Rektal tüpün erişkinler için numaraları nedir?",
+    "answer": "24-34 Fr."
+  },
+  {
+    "id": 72,
+    "question": "Erişkin hastaya lavman uygularken rektal tüpün kaç cm'lik kısmı rektuma itilir, kaç dakikadan fazla uygulanmaz?",
+    "answer": "10 cm-20dk"
+  },
+  {
+    "id": 73,
+    "question": "Nazogastrik tüp ile beslenen hastalarda neden glikozüri görülür? Açıklayınız.",
+    "answer": "Verilen besininde karbonhidrat oranının fazla olmasına bağlı kan glikoz düzeyi yükseldiğinde glikozüri\nve sık idrara çıkma görülür."
+  },
+  {
+    "id": 74,
+    "question": "Nazogastrik kateteri olan hastada hemşirelik bakım uygulamaları nelerdir?",
+    "answer": "Ağız bakımı yapılması gerekir. Bunun için:\n• Dişler ve dil fiırçalanır.\n• Dişetlerine masaj yapılarak kan dolaşımı uyarılır.\n• Dişlerini fırçalayamıyorsa gargara ile ağız bakımı verilir.(%1 Sodyum bikorbanatlı solüsyonu,\nserum fizyolojik).\n• Dudaklarına vazelin sürülür.\n• Buruna tüpü tespit eden flosterler temiz ve kuru olmalidir. Bu nedenle çok terleyen hastaların\nflasterleri her gün değiştirilir. Flasteri kaldırınca cildi sabunlu bez ile nazik bir şekilde silip iyice\nkurulayınız. Yeni flaster yapıştırırken yerini olabildiğince değiştiriniz. Tüpe zarar verebileceği\niçin krem ya da pudra kullanmayınız.\n• Burun bakımı verilir. Burundaki kurumuş sekresyonlar temizlenir.\n• Tüpün açıklığını sürdürmek veya tıkanıklığı açmak için irigasyon işlemi uygulanır."
+  },
+  {
+    "id": 75,
+    "question": "Temizleyici lavmanda sıklıkla kullanılan musluk suyunun etki mekanizması nedir?",
+    "answer": "Musluk suyunun osmotik basıncı, interstisiyel boşluklardaki sıvılardan daha düşüktür. Su, iki tarafın\nbasıncını eşitlemek için bir zar yoluyla, az yoğun ortamdan çok yoğun ortama geçer. Böylece su,\nbağırsaklardan interstisiyel boşluğa geçer. Bu nedenle musluk suyu lavmanı, böbrek işlevleri bozuk\nveya kalp hastalığı olan hastalar için güvenilir değildir.\nYATAK BAŞI HASTA BAKIMI"
+  },
+  {
+    "id": 76,
+    "question": "Ağız sağlığı ile ilgili sorun gelişme riski taşıyan hastalar kimlerdir?",
+    "answer": "1. Genel durumu bozuk olan hastalar\n2. Ust ekstremitelerinde hareket kısıtlılığı olan hastalar (felçli,alçılı vd hastalar)\n3. Ağız yoluyla beslenemeyen hastalar\n4. Sıvı kısıtlaması uygulanan hastalar\n5. Nazogastrik sondası bulunan hastalar\n6. Ağızdan solunum yapan ya da oksijen tedavisi uygulanan hastalar\n7. Ağız ve çene ameliyatı geçirmiş olan hastalar"
+  },
+  {
+    "id": 77,
+    "question": "Ağız bakımında kullanılan solüsyonların/gargaraların isimleri nelerdir?",
+    "answer": "1. Hidrojen Peroksid-\n2. Normal salin solüsyonu\n3. Sodyum bikarbonat solüsyonu\n4. Gliserin-limon karışımı"
+  },
+  {
+    "id": 78,
+    "question": "Sırt masajı yapılmaması gereken durumlar nelerdir?",
+    "answer": "• Kaburga ya da omurlarında kırık olan hastalar,\n• Sırtında yanık olan hastalar,\n• Açık yarası olan hastalar,\n• Tromboflebit, Miyokard enfarktüsü geçiren hastalar"
+  },
+  {
+    "id": 79,
+    "question": "Masaj sırasında kullanılabilecek yöntemleri söyleyiniz.",
+    "answer": "Efloraj, Petrisaj, Tapotman, Friksiyon, Vibrasyon, Haşur\nEfloraj: Vücudun geniş alanlarına avuç içi ile, venöz dolaşımın kalbe dönüş yönüne doğru yapılan\nyumuşak, sıvazlama şeklindeki hareketlerdir. Bu manevra el, ayak gibi bölgelere aşağıdan yukarıya\ndoğru yavaş, ritmik, uzun hareketlerle geriye ise yavaş yavaş ve hafif hareketlerle uygulanır. Avuç\niçinin hasta derisi ile sıkıca teması gerekir. Masajın hangi güçle yapılacağı, istenen etki adale miktarı\nve tonüsüne göre değişir. Sırta uygulamada iki el birlikte kullanılmalıdır. Ekstremitelerde ise bir elle\nmasaj yapılırken diğer elle alttan desteklenmelidir.\nPetrisaj: Subkutan doku ve kaslara yapılan yoğurma hareketidir. Genellikle geniş kaslara uygulanır.\nHareket, adelenin doğrultusunda, ritmik, kısa, sıkıştırıcı, bükücü be basınç yapıcı işlemler dizisidir.\nBütün el deri ile temas etmekle birlikte, güç baş ve distal parmaklardadır. Sırta uygulandığında her\niki el birlikte kullanılır. Eksremitelerde ise bir elle uygulama yapılırken, diğer elle destek olunur.\nAmaca ve hastanın reaksiyonuna göre basınç uygulanır.\nTapotman: Avuç içini kubbeleştirerek, hafif vuruş biçiminde yapılan harekettir. Titreşim yolu ile\nderine etki eder. Zayıf hastalarda tercih edilmez. Sırt bölgesine uygulanan topatman manevrası\nsıklıkla uygulanan bir hareket değildir.\nFriksiyon: Omurlarda ve omuz başlarında olduğu gibi, kemik çıkıntılarının etrafına, ilk iki parmakla\nyapılan manevradır. Küçük daireler çizerek yapılan titreşim hareketidir.\nVibrasyon: Parmak uçları ile yapılan titreşim hareketleridir.\nHaşur: Elimizi bıçak sırtı gibi kullanarak vurma hareketleri şeklinde yapılır. Bir el uzaklaşırken diğer\nel onun yerini alacak şekilde periyodik olarak uygulanır."
+  },
+  {
+    "id": 80,
+    "question": "Ağız bakımında kullanılan solüsyonlardan sodyum bikarbonat solüsyonu için yüzde kaç'lik formu kullanılır?",
+    "answer": "%1'lik Sodyum bikarbonat solüsyonu: 500cc Su+ 1 tatlı kaşığı (5g) NaHCO3"
+  },
+  {
+    "id": 81,
+    "question": "Ağız bakımında uygulanan adımları sırasıyla söyleyiniz.",
+    "answer": "1. Yakın taraf üst çene: en arka dişten, çene orta hattına kadar\n2. Uzak taraf üst çene: en arka dişten, çene orta hattına kadar\n3. Önce uzak taraf sonra yakın taraf yanak mukozası\n4. Dil üzeri ve altı\n5. Uzak taraf alt çene: en arka dişten, çene orta hattına kadar\n6. Yakın taraf alt çene: en arka dişten, çene orta hattına kadar\n7. Damak"
+  },
+  {
+    "id": 82,
+    "question": "Kadın ve erkek hastalara uygulanan perine bakımının adımlarını söyleyiniz.",
+    "answer": "• Kadın hasta:\n• önce uzak sonra yakın taraf uyluk\n• mons pubis\n• labia majör\n• labia minör\n• üretral meatus\n• vajinal orifis\n• erkek hasta:\n• önce uzak sonra yakın taraf uyluk\n• mons pubis\n• glans penis\n• skrotum\nYATAGA BAGIMLI HASTA BAKIMI"
+  },
+  {
+    "id": 83,
+    "question": "Bası yarasının evrelerini söyleyiniz",
+    "answer": "Şüpheli derin doku yaralanması: Bütünlüğü bozulmamış ciltte lokalize morluk veya renk değişikliğinin\nolması veya alttaki dokunun basınç veya sürtünme nedeni ile hasarlanması sonucu ciltte bol mas\nşüpheli derin doku yaralanması tanımını almaktadır.\n1. 1.evre basınç ülseri: Sağlam deride genellikle de kemik çıkıntılar üzerinde solmayan eritem\nvardır. Koyu pigmentasyonlu deride beyazlaşma görülmeyebilir, ancak rengi çevreleyen deriden\nfarklidir.\n2. II. evre basınç ülseri: Dermisin kısmi kalınlıkta kaybı olup, yara yatağının pembe kırmızı olduğu,\nölü dokunun olmadığı yüzeysel bir ülser şeklinde tanımlanmıştır\n3. Ill. evre basınç ülseri. Bu evrede tam kalınlıkta doku kaybı oluşmuştur. Ciltaltı yağ dokusu\ngörülebilir, ancak doku  kaybı kemik, tendon ya da kasa ulaşmamıştır. Yara kabuğu olabilir, fakat\nbu kabuk doku kaybının derinliğini gizlemez. Bu evrede sinüs ya da tüneller görülebilir.\n4. IV. evre basınç ülseri: Kemik, tendon ve kasları da içine alan tam kalınlıkta doku kaybı olarak\ntanımlanmıştır. Yara yatağının bazı yerlerinde kabuk ya da eskar görülebilir. Bu evrede çoğu\nzaman tünel ya da sinüsler oluşmuştur.\n5. Evrelendirilemeyen basınç ülseri: Yara yatağının ölü doku (sarımsı kahverengi, kahverengi ya da\nsiyah) veya kabukla (sarı, sarımsı kahverengi, gri, yeşil ya da kahverengi) kaplanmış olması nedeni\nile değerlendirilemeyen, tam kat doku kaybının olduğu yaralar evrelendirilemeyen basınç ülseri\nolarak tanımlanmıştır"
+  },
+  {
+    "id": 84,
+    "question": "Yatak istirahatindeki hastalarda yeterli sivi alımı neden önemlidir?",
+    "answer": "• Trombüs oluşumunu önler (kan viskozitesini azaltır)\n• Solunum yollarından sekresyonların atılımını kolaylaştırır\n• Konstipasyonu önler\n• idrar yolu enfeksiyonunu önler\n• Bası yaralarını önler"
+  },
+  {
+    "id": 85,
+    "question": "Bası yarasına neden olan içsel etmenler nelerdir?",
+    "answer": "• Yaşlılık\n• Beslenme Bozukluğu\n• Kan Basıncı Vücut Isisi\n• Duyu Kaybı ve Hareketsizlik\n• Psikolojik Etmenler"
+  },
+  {
+    "id": 86,
+    "question": "Basınç yarasına neden olan dışsal faktörler nelerdir?",
+    "answer": "• Bası\n• Sürtünme (Friksiyon)\n• Yırtılma (Shear)\n• Nemlilik"
+  },
+  {
+    "id": 87,
+    "question": "Yatak istirahətinin dolaşım sistemi üzerindeki zararlı etkileri nelerdir?",
+    "answer": "• Ortostatik Hipotansiyon,\n• Trombüs-Pulmoner Emboli-Tromboflebit\n• Valsalva Manevrasının Kullanımında Artma,\n• Kalp Yükünde Artma"
+  },
+  {
+    "id": 88,
+    "question": "Yatağa bağımlı hastalarda trombüs oluşumunun önlenmesine yönelik hemşirelik bakımını açıklayınız.",
+    "answer": "• Hasta yatak içinde olabildiğince hareketli tutulmalı, günde üç kez eklemlerin normalde\nyaptıkları tüm hareketler (ROM egzersizleri) yaptırılmalıdır (aktif ya da pasif hareketler).\n• Hasta en erken dönemde ayağa kaldırılır.\n• Kan viskozitesini azaltmak için yeterli sıvı alımı sağlanmalıdır.\n• Yatak içinde elastik çorap ve bandaj uygulanarak venöz dönüş arttırılır.\n• Popliteal boşluğa basınç yaptığı için hastanın diz altları yastıkla desteklenmemelidir.\n• Hastanın bacak bacak üstüne atarak oturması, sandalye kenarının diz arkasına basınç yapması\nönlenmelidir. Bunun için sandalyede otururken hastanın bacakları yükseltilmelidir\n• Hasta yatak veya sandalyede otururken bacak kaslarını kasması söylenerek venöz dönüşün\nuyarılması sağlanmalıdır\n• Trombüsün yerinden koparak emboliye neden olmaması için bacaklara masaj yapılmamalıdır."
+  },
+  {
+    "id": 89,
+    "question": "Yatak istirahatindeki hastalarda valsalva manevrasının kullanımını azaltmaya yönelik hemşirelik bakımını açıklayınız.",
+    "answer": "• Konstipasyon önlenmelidir.\n• Hastaya ikınmaktan kaçınması gerektiği öğretilir.\n• Sürgü verirken hastanın kalçası desteklenerek kaldırılmalıdır.\n• Sakıncası yoksa hastanın sürgü yerine oturakli sandalye kullanmasına izin verilir.\n• Kalp hastalarına yatak içinde hareket ederken yardım edilmeli ve gerektiğinde sağlık\npersonelinden yardım istemeleri söylenmelidir."
+  },
+  {
+    "id": 90,
+    "question": "Yatak istirahatinin solunum sistemine ilişkin zararli etkileri önlemeye yönelik hemşirelik bakımını açıklayınız.",
+    "answer": "• Hastanın pozisyonu sık sık değiştirilir (Gündüz 2,gece 4 saat ara lle).\n• Solunum ve öksürme egzersizleri yaptırılır.\n• Yeterli sıvı alması sağlanır (Günde iki litre).\n• Ateş, öksürük, göğüs ağrısı, yeşil balgam, kikositoz gibi hipostatik pnömoni belirtileri gözlenir."
+  },
+  {
+    "id": 91,
+    "question": "Yatak istirahatinin üriner sisteme ilişkin zararlı etkilerinden biri olan idrar yapma güclüğünü gidermeye yönelik hemşirelik bakımını açıklayınız,",
+    "answer": "• Hastanın elleri ılık suda bekletilir. Hastanın perinesine ılık su dökülür.\n• idrar yapma refleksini uyarmak için uylukların iç yüzüne hafifçe vurulur veya buz uygulanır.\n• Hastanın karnının alt kısmına sıcak uygulama yapılır.\n• Hasta ilik su dolu küvete oturtulur..\n• Hasta tüm uğraşılara rağmen idrarını yatarak yapamıyorsa;\nerkek hastaların yatağın yanında ayakta,\nkadın hastaların sürgüye oturarak idrar yapmalarına izin verilir."
+  },
+  {
+    "id": 92,
+    "question": "Yatak istirahatine bağlı gelişen üriner sisteme ilişkin zararlı etkiler nelerdir?",
+    "answer": "Idrar Yapma Güçlüğü, Böbrek Taşı Oluşumu"
+  },
+  {
+    "id": 93,
+    "question": "Yatak istirahatinin kas-iskelet sistemi üzerindeki zararlı etkilerini önlemeye yönelik hemşirelik bakımını açıklayınız.",
+    "answer": "• Hastanın pozisyonu sık sık değiştirilmelidir. Hareketsizlik sonucu kasların kemikler üzerinde\nmeydana getirdiği gerginliğin kalkması kemiklerden kalsiyum mobilizasyonuna neden olur.\n• Yatak sert ve düz olmalıdır.\n• Masaj yapılmalıdır.\n• ROM (Range of Motion) egzersizleri adı verilen egzersizler günde üç kez ve her egzersiz beş\nkez olmak üzere yapılmalıdır. (ROM eklemlerin yapabileceği tüm hareketlerdir).\n• Kaslar için izometrik egzersizler özellikle yapılmalıdır (izometrik egzersizler, kasların uzunluğu\ndeğişmeden gözle görünür bir hareket olmaksızın yaptırılan egzersizlerdir).\n• Ayak düşmesini (planter fleksiyon) önlemek için ayak tahtası kullanılmalıdır. Ayaklar üzerinde\nbasıncı önlemek için üst yatak takımları gergin olmayacak şekilde hazırlanmalıdır.\n• Ayak, bacak ve kalçanın eksternal rotasyon kontraktürünü önlemek için ayak, bacak ve kalça\nrulo çarşaflar, kum torbaları ile desteklenmelidir."
+  },
+  {
+    "id": 94,
+    "question": "Yatağa bağımlı hastalarda konstipasyon ve fekal impakşın gelişmesini önlemeye ve tedaviye yönelik hemşirelik bakımını açıklayınız",
+    "answer": "• Hastanın defekasyon sıklığı, gaita miktarı, kıvamı izlenir ve kaydedilir.\n• Hergün belirli saatlerde sürgü verilir.\n• Dışkılamayı kolaylaştırmak için hasta oturur pozisyona getirilir. Bunun için yatağın başı\nyükseltilir, hastanın sırtı yastıkla desteklenir.\n• Sabahları aç karnına su, kayısı/erik kompostosu içmesi sağlanır.\n• Hasta için sakıncası yoksa günlük sıvı miktarı arttırılır (2lt.).\n• Konstipasyon önlenemezse doktor istemine göre laksatifler, gliserinli suppozituvar uygulanır\n• Bu uygulamalar etkili olmazsa boşaltıcı lavman uygulanır.\n• Fekal impakşın gelişmişse hekim tarafından çıkarılması gerekir."
+  },
+  {
+    "id": 95,
+    "question": "Yatak istirahatinin mental durumla ilgili duyusal uyarıyı arttırmak için gerekli olan hemşirelik bakımını açıklayınız.",
+    "answer": "• Bireye kendi kendini uyarma yöntemleri (hesap yapma, şarkı söyleme, ezbere şiir okuma vb.)\nöğretilir.\n• Görsel uyarı sağlamak için; renkli çarşaflar, pijamalar, saatler, takvim, resim kullanılır. İşitme\nuyarıları sağlanır (isim ile seslenme, radyo dinleme, TV izleme, bireye bir şeyler okuma).\n• Tat ve koklama uyarıları sağlanır (ağız ve diş bakımı yapılır, farklı yemekler sunulur,\nyiyecekleri yemeden önce koklaması sağlanır).\n• Dokunsal uyarılar sağlanır (sırt masajı uygulanır, egzersizler yaptırılır, dokunma kullanılır).\nBilişsel uyarılar sağlanır.(kendi bakımına katılması sağlanır, belirli olayları, bireyin işi ve\nhobileri tartışılır).\n• Emosyonel uyarılar sağlamak için hasta korkularımı düşünce ve algılarini paylaşması için\ndesteklenir. Hallüsinasyonu olan hasta ile tartışmadan gerçeğe yöneltilir."
+  },
+  {
+    "id": 96,
+    "question": "Bası yaralarının en sık görüldüğü bölgeleri söyleviniz.",
+    "answer": "• Sakral bölge,\n• Koksiks bölgesi,\n• Iskeal tuberositler,\n• Büyük torakanterler,\n• Topuklar, Skapulalar\n• Başın arkası,\n• Dirsekler, Dış malleoller"
+  },
+  {
+    "id": 97,
+    "question": "Bası yaralarını önlemeye yönelik hemşirelik girişimlerinden 5 tanesini söyleyiniz",
+    "answer": "• Derinin gözlenmesi bası yarası oluşumunu önlemeye yönelik girişimlerin planlanması ve\nyapılan girişimlerin sonuçlarını değerlendirilmesi gerekir. (Bası yarası oluşma riski tanılama\nölçeklerinin kullanılması, Deri Tolerans Testinin uygulanması)\n• Yatağa bağımlı hastalarda gündüzleri iki saat, gece dört saat aralıklarla pozisyon\ndeğiştirilmelidir.\n• Hasta tekerlekli sandalyeye bağımlı ise 30 dakikada bir 60 saniye süresince elleri ile destek\nolarak, sandalye üzerinde kalçalarını yükseltmesi sağlanmalıdır.\n• Hastanın genel durumu uygunsa belirli aralıklarla yataktan sandalyeye alınıp 30dk, oturması\nsağlanmalıdır.\n• Sürgü verirken ya da alırken sürtünmeyi önlemek için hastanın kalçası desteklenerek\nkaldırılmalıdır.\n• Hastanın hareket yeteneği ve gücü varsa yürümeye teşvik edilmeli, eklemlerde kontraktür\noluşmaması için 8 saatte bir ROM (range of motion) egzersizleri yaptırılmalıdır.\n• Hastanın pozisyonu değiştirilirken sürtünmeyi önlemek için kaldırılarak döndürülmelidir.\n• Hastanın dolaşımını uyarmak için günde 1-2 kez masaj yapılmalıdır. Masaj yaparken kurutucu\netkisi nedeni ile\n• pudra ve alkol kullanılmamalıdır. Nemlendirici kremler, vazelin tercih edilmelidir.\n• Hasta yeterli sıvı alması için desteklenmeli, sakıncası (Kalp yetmezliği, böbrek yetmezliği vb)\nyoksa günde 2 lt Sıvı alması sağlanmalıdır.\n• Dengeli ve yeterli beslenme sağlanmalıdır. Yemek yerken hastaya rahat bir pozisyon verilmeli,\nkendi kendine yiyemeyenlere yardım edilmeli, temiz ve güzel bir ortam sağlanmalıdır.\n• Deri kuru ve temiz tutulmalıdır. Temizlik cilt sağlığını destekler. Banyo dolaşımı uyarır, kas ve\neklem hareketi saglar, hastayı rahatlatır.\n• Ciltteki kuruluk ve çatlakları önlemek için nemlendirici/yağlayıcı krem ve losyonlar\nkullanılmalıdır (Vazelin, Bephanthen vb.).\n• Derinin havalanmasını sağlayan pamuklu/keten yatak takımları ve giysiler kullanılmalı, ısı ve\nneme neden olan sentetik kumaşlar kullanılmamalıdır.\n• Hemşire inkontinanslı hastaya mesane eğitimi yapmalıdır. .\n• Basınç noktalarını değiştirdiği için havalı yatak, su yatağı kullanılabilir.\n• Koyun postu, vücut ısısını normal düzeyde tuttuğu, sürtünmeyi ve basıncı azalttığı için basi\nyaralarının önlenmesinde kullanılır\n• Kızarık bölgelere 4 saatte bir 4 dakika süre ile buz uygulanma iyileşmeyi hızlandırır.\n• Naylon torbaya konulan buz parçaları bir örtüye sarılarak uygulanmalıdır."
+  },
+  {
+    "id": 98,
+    "question": "Valsalva manevrası nedir? Mekanizmasını açıklayınız.",
+    "answer": "• Valsalva manevrası yatak içinde kolların yardımı ile üst gövde kaslarının hareket ettirilmesi ve\nikınma ile intratorasik basıncın yükselmesidir.\n• Valsalva manevrasında solunumun tutulması ile glotis kapanır, intratorasik basınç artar, nabız\nhızlanır.\n• Kalbe dönen kan miktarı azalır ve venöz basınç yükselir.\n• Valsalva manevrasının sonunda kişi birden nefesini bıraktığında intratorasik basınç aniden düşer,\nbradikardi gelişir. Bu durumda koroner kan akımının yavaşlamasına bağlı kardiyak arrest (kalp\ndurması) veya yeni bir emboli gelişebilir. Bu nedenle kalp hastalarının valsalva manevrasını\nkullanmaları sakıncalıdır."
+  },
+  {
+    "id": 99,
+    "question": "Bası yarası oluşumunu önlenmesinde \"deri tolerans testinin\" yapılışını ve değerlendirmesini yazınız.",
+    "answer": "• Deri tolerans testi,\nbireyin hasar meydana gelmeksizin basıyı ne kadar tolere edebildiğini gösterir. Hastayı çevirdikten\nsonra yüzeyle temas eden deri bölgesine parmakla hafifçe bası yapılır. Başlangıçta deri beyazlaşır,\ndaha sonra normal rengine döner. Derinin normal rengine dönme süresi bası yapılan sürenin iki\nkatından daha uzun olmamalıdır. Ciltte basmakla beyazlaşmayan (solmayan) eritem veya basınç\nkaldırılınca kaybolmayan eritem bası yarası gelişeceğini gösterir.\nUYKU GEREKSİNİMİ"
+  },
+  {
+    "id": 100,
+    "question": "Hastanın normal uyku alışkanlığının ya da herhangi bir uyku sorununun özelliklerini belirlemek için uyku değerlendirmesi nasıl yapılır?",
+    "answer": "Uykunun niteliği ve niceliği hakkında yeterli bilgi bireyin kendisinden alınabilir. Değerlendirmede\namaç hastanın normal uyku alışkanlığının ya da herhangi bir uyku sorununun özelliklerini\nbelirlemektir...\n• Uyku Hikâyesi:\n• Sağlık Durumu:\n• Uyku Sorununun Tanılanması:\n• Normal Uyku Düzeninin Tanılanması"
+  },
+  {
+    "id": 101,
+    "question": "Uyku sorunu saptanan bir hastaya uygulayacağına hemşirelik girisimlerini",
+    "answer": "• Çevrenin Kontrolü:\n• Uykuya Hazırlık Alışkanlıkları:\n• Uyku Hijyenine Yönelik Bireyin Yapması Gereken Düzenlemeler:\n• Sabahlan uyanınca hemen yataktan çıkılmalıdır. Biraz daha dinlenmek için uyumaya devam\netme dinlendirici olmadığı gibi uyku düzenini de bozabilmektedir.\n• Her zaman aynı saatte kalkılmalıdır. Uyku düzeninin oluşturulabilmesi için; belirli saatler\narasında ve bireysel sirkadiyen ritme göre uyuyabilmesi için en sağlıklı yöntemdir.\n• Gündüz uyumamalıdır.\n• Düzenli egzersiz yapılmalı, ancak akşam saatlerinde heyecan uyandıracak aktivitelerden\nkaçınılmalıdır.\n• Yatak odası Isı, Işık ve ses yönünden ayarlanmalıdır. Çok aç ya da tok olunmamalıdır.\n• Kafeinli, kolali, alkollü içeceklerden kaçınılmalıdır. Uyumaya çabalanmamalıdır.\n• Rahatı Destekleme:\n• Uyku Düzenine Destek:\n• Fiziksel Rahatsızlıkların Giderilmesi:\n• Stresi Azaltma:\n• Farmakolojik Yaklaşım:\n• Yatma Vakti Alışkanlıkları:"
+  },
+  {
+    "id": 102,
+    "question": "Uyku sorunu yaşayan hastaya uyku hijyeni konusunda hangi bilgiler verilmelidir?",
+    "answer": "• Sabahları uyanınca hemen yataktan çıkılmalıdır. Biraz daha dinlenmek için uyumaya devam\netme dinlendirici olmadığı gibi uyku düzenini de bozabilmektedir.\n• Her zaman aynı saatte kalkılmalıdır. Uyku düzeninin oluşturulabilmesi için; belirli saatler\narasında ve bireysel sirkadiyen ritme göre uyuyabilmesi için en sağlıklı yöntemdir.\n• Gündüz uyumamalıdır.\n• Düzenli egzersiz yapılmalı, ancak akşam saatlerinde heyecan uyandıracak aktivitelerden\nkaçınılmalıdır.\n• Yatak odası ısı, ışık ve ses yönünden ayarlanmalıdır. Çok aç ya da tok olunmamalıdır.\n• Kafeinli, kolali, alkollü içeceklerden kaçınılmalıdır.\n• Uyumaya çabalanmamalıdır."
+  },
+  {
+    "id": 103,
+    "question": "Aktif dinlenme nedir, örnek vererek açıklayınız.",
+    "answer": "Aktif dinlenme aktif bir süreçtir. Aktif dinlenme zamanı 5-10 dakikadan 4-5 haftaya kadar sürebilir.\nAktif dinlenme aktivitelerine örnekler şunlardır:\n• Gevşeme teknikleri (meditasyon, müzik, bulmaca çözme vs.)\n• Entelektüel uyaran (okuma, yürüme, spor yapma, egzersiz programı vs)\n• Fizik aktivite (koşma, yürüme, spor yapma, egzersiz programları vs)\n• Yaratıcı aktivite (bahçıvanlık, ağaç işleri, örgü vs)\n• Bireysel gereksinimleri karşılama (banyo yapma, alışveriş yapma vs)\n• Sosyalizasyon (arkadaşlıklar, klüpler ve dernekler)\nURINER SISTEM"
+  },
+  {
+    "id": 104,
+    "question": "Geçici Mesane Kateterizasyonu hangi durumlarda uygulanır?",
+    "answer": "Mesane distansiyonunun giderilmesi, mesane yetersizliği olan hastaların uzun süreli bakımı için, steril\nidrar örneği almak, idrar yaptıktan sonra rezidüel idrar olup olmadığını belirlemek."
+  },
+  {
+    "id": 105,
+    "question": "Kalıcı Mesane Kateterizasyonu hangi durumlarda uygulanır?",
+    "answer": "• İdrar akışında bir tıkanma olduğunda (prostat büyümesi, üretral darlık)\n• Üretra ve çevre dokuların onarıldığı cerrahi girişimlerde (transüretral rezeksiyon)\n• Üretranın kan pıhtıları ile tıkanmasını önlemede\n• Yoğun bakımdaki, durumu ağır olan veya komadaki hastaların çıkarılan saatlik ve günlük idrar\nmiktarını doğru olarak ölçmede\n• İdrar inkontinansı olan ve durumu ağır hastalarda idrarın cildi tahriş etmesini önlemede\n• Mesane irrigasyonu yapmada\n• Papiller mesane karsinomlarının tedavisinde, sitotoksik ilaçları vermede"
+  },
+  {
+    "id": 106,
+    "question": "Mesane kateterizasyonunda kadınlar ve erkeklerde kac numaralı kateter kullanılır?",
+    "answer": "kadınlarda: 14/16,\nerkeklerde: 16/20-11.5.20"
+  },
+  {
+    "id": 107,
+    "question": "İdrar retanlyonunda bir defada en fazla kaç cc idrar boşaltılır?",
+    "answer": "500cc"
+  },
+  {
+    "id": 108,
+    "question": "Üretral kateter takarken kadınlarda ve erkeklerde kaç cm ilerletilir?",
+    "answer": "kadınlarda: 5/7,5cm erkeklerde: 17,5/20cm"
+  },
+  {
+    "id": 109,
+    "question": "Üretral kateter takarken kadın ve erkek hastaya hangi pozisyon verilir",
+    "answer": "Dorsal rekümbent/supine"
+  },
+  {
+    "id": 110,
+    "question": "Üretral kateterizasyona bağlı gelisen komplikasyonlan söyleyiniz.",
+    "answer": "• Travma,\n• enfeksiyon,\n• parafimozis,\n• kanama ve\n• Mesane Spazmi, sızıntı ve Tikanma, kateterin Reddi,\n• Bolonun söndürülememesi,\n• fiziksel ve Psikolojik Zorluklar"
+  },
+  {
+    "id": 111,
+    "question": "Orta idrar örneği nasıl ve hangi amaçla alınır?",
+    "answer": "Üretral yolla mesane kateteri takılmaksızın, üriner sistem dışındaki mikroorganizmalarla kontamine\nolmamış steril idrar örneği almak için bu yöntem kullanılır. Bu yöntemle alınan idrar örneği, idrar\nkültürü ve kültür antibiyogram gibi mikrobiyolojik analizlerde kullanılır.\nIşlem:\n• Onayını almak ve işbirliği sağlamak için yapılacak işlem hastaya açıklanır.\n• Gerekli araç-gereç tedavi arabasına hazırlanır ve hastanın odasına getirilir.\n• Hastanın gizliliğini sağlamak için perde veya paravana çekilir.\n• Hastaya genital alanını açması söylenir.\n• Sürgü veya ördek yerleştirilir. Hastanın rahat bir pozisyonda olmasına dikkat edilir.\n• Steril eldiven giyilir.\n• Kadın hastada üretral meatus ve çevresi antiseptik solüsyonlu (veya sabunlu) tamponlarla\nönden\n• arkaya doğru üç kez silinir.\n• Hastaya idrar yapması söylenir.\n• ilk akan idrar, üretranın içini yıkayıp bakterilerin sürüklenip atılmasını sağadığı için, sürgüye\nveya ördeğe akıtılır. Steril idrar kabına ortadaki yaklaşık 30 cc. idrar alınır. Ayrıca idrar kabının\ngenital organlara veya parmakların idrar kabının steril olan iç yüzüne veya ağız kenarına\ndeğmemesine dikkat edilmelidir.\n• Steril idrar kabının kapağı kapatılır. Steril idrar tüpü kullanılıyorsa üstü steril pamuk tamponla\nkapatılır.\n• İdrar tüpüne veya kabina, üzerinde hastanın adı, idrarın alındığı tarih ve saat yazılı etiket\nyapıştırılır.\n• Yapılan işlem kaydedilir.\n• Idrar örneği laboratuvara gönderilir."
+  },
+  {
+    "id": 112,
+    "question": "Uretral kateterizasyonda hasta için uygun numaralı kateter kullanılmadığında hangi komplikasyonlar gelişir?",
+    "answer": "• üretral mukozada travma (travma)\n• Kateterin çevresinden idrar sızması (sızıntı ve tıkanma)\n• Kateterin kan pıhtıları veya idrar sedimenti ile tıkanması"
+  },
+  {
+    "id": 113,
+    "question": "İdrar örneği alma yöntemlerini sayınız.",
+    "answer": "Temiz,orta, mesane kateterinden steril, 24 saatlik, iki kez"
+  },
+  {
+    "id": 114,
+    "question": "Mesane irrigasyonu türleri nelerdir?",
+    "answer": "Basit, Aralıklı Mesane Irrigasyonu, Sürekli Mesane Irrigasyonu"
+  },
+  {
+    "id": 115,
+    "question": "Üriner kateteri çıkarılması planlanan hastada mesane eğitimini anlatınız.",
+    "answer": "Kateter çıkarılmadan en az 10 saat önce başlanır. İdrarın mesanede birikmesini sağlamak için kalıcı\nkateterin klempi kapatılır. Mesanede idrar miktarının artması, mesane duvarlarını gererek kas\ntonüsünü uyarır. 3 saat sonra kıskaç açılarak, normal idrar yapmaya benzer biçimde 5 dakika süreyle\nidrarın akması sağlanır. Bu uygulama en az iki kez yapılır.\nVÜCUT MEKANİĞİNE UYGUN YATIŞ POZİSYONLARI VE HASTAYI YATAK İÇİNDE HAREKET ETTİRME"
+  },
+  {
+    "id": 116,
+    "question": "Hasta bireyler gece uykusu dönemi hariç kaç saatten fazla aynı pozisyonda bırakılmamalıdır?",
+    "answer": "2 saat"
+  },
+  {
+    "id": 117,
+    "question": "Koruyucu Yatış Pozisyonları nelerdir?",
+    "answer": "1. Sırt üstü (supine) pozisyon\n2. Yan (lateral) pozisyon\n3. Yüzüstü (prone) pozisyonu\n4. Oturur (fowler's )pozisyonu"
+  },
+  {
+    "id": 118,
+    "question": "Dorsal Rekümbent pozisyonu ve hangi durumlarda uygulandığını açıklayınız.",
+    "answer": "Kollar başın arkasına çevrilmiş bacaklar bükük ve yana açık durumdadır. Kadın hastalara idrar sondası\ntakmak için kullanılan pozisyondur."
+  },
+  {
+    "id": 119,
+    "question": "Litotomi pozisyonunu ve hangi durumlarda uygulandığını açıklayınız.",
+    "answer": "Hasta sirt üstü yatmış, bacaklar askıda birbirinden açık durumdadır. Vajinal, rektal, üretral tedavi ve\nmuayene pozisyonudur."
+  },
+  {
+    "id": 120,
+    "question": "Ortopne pozisyonunu ve hangi durumlarda uygulandığını açıklayınız.",
+    "answer": "Kalp ve akciğer yetmezliği olan bireylere verilen pozisyondur. Hasta yatak içinde oturur durumdadir\nve önüne çekilen yemek masasının üzerine konulan yastikla desteklenir ya da sandalyeye ters\noturarak arkalığın üzerine kollarını koyarak, kollarının üstüne yaslanır."
+  },
+  {
+    "id": 121,
+    "question": "Trendelenburg pozisyonunu ve hangi durumlarda uygulandığını açıklayınız.",
+    "answer": "Hastanın ayakları 30 derece kaldırılır. Başın altından yastık alınır. Özellikle postural drenaj için\nkullanılır."
+  },
+  {
+    "id": 122,
+    "question": "Yarıyüzüstü (sims') pozisyonunu ve hangi durumlarda uygulandığını açıklayınız.",
+    "answer": "Hasta yan yatırılır. Bir kol arkadadır, diğer kol önde ve başın yanındadır. Üst bacak iyice karına\nçekilmiş, alt bacak serbest durumdadır. Bu pozisyon genellikle bilinçsiz hastalarda ağızdan müküs\ndrenajını arttırmak için kullanılır. Eğer ağızdan müküsün drene edilmesini gerektiren bir durum yoksa\nbaşın altına küçük bir yastık konularak boynun lateral fleksiyonu engellenmelidir. Bu pozisyon ayrıca\nrektal, vaginal, kolonun muayenesinde ve lavman uygulamalarında kullanılır.\nTERMINAL DÖNEM VE ÖLMEK ÜZERE OLAN HASTA BAKIMI"
+  },
+  {
+    "id": 123,
+    "question": "Terminal hasta nedir? Tanımlayınız.",
+    "answer": "Terminal hasta sözcüğü ile ölümcül bir hastalığı olan ve belirlenebilen bir sürede ölmesi beklenen\nhasta kastedilir."
+  },
+  {
+    "id": 124,
+    "question": "Kesin ölüm belirtileri nelerdir?",
+    "answer": "• Kalp atışı ve solunum durmuştur\n• Pupiller dilatedir, işığa reaksiyon yoktur\n• Refleksler kaybolmuştur\n• Beyin dalgaları (EEG) yoktur\n1. \"artık hiçbir şey yapılamaz\" sözü kabul edilmemeli\n2. Amaç yaşamı uzatmak değil, kalan süre içindeki yaşam kalitesini yükseltmektir.\n3. Hastanın bakımını planlarken;\na. a.Hastanın konuşması, duygu ve düşüncelerini ifade etmesine olanak sağlanmalı,\nb. Bakım planı hazırlanırken ailesi, önceden bakım verenler ve doktoru ile konuşulmalı,\nc. C.Hastaya ölümü yaklaştığı andan itibaren destek sağlanmalıdır.\nd. Hemşirenin görevi hastanın bağımsızlığını olabildiğince uzun süre korunmasına yardımcı\nolmak ve hastaya iyi bir ölüm sağlamaktır.\ne. Her türlü acı ve rahatsızlık en aza indirilmelidir. f. emşireler hastalar için her an için ulaşılabilir\nolduklarından hastalara verdikleri bakım özel bir ilişkiye dayanır.\nASEPSI VE ANTISEPSİ"
+  },
+  {
+    "id": 126,
+    "question": "Çapraz bulaşma nedir? Tanımlayınız.",
+    "answer": "Hastanede çalışan ve çeşitli virulan suşların doğal taşıyıcısı durumunda olan hekim, hemşire, hizmetli\nve diğer görevlilerin bu mikroorganizmaları nasofarenkslerinde taşıyıp damlacıklarla havaya ve\ndoğrudan hastaya vermeleri ya da elleri ve giysileri aracılığı ile enfekte hasta ve kontamine\ngereçlerden aldıkları mikroorganizmaları diğer hastalara taşımaları yoluyla olan bulaşmalara çapraz\n(kros) enfeksiyon denir."
+  },
+  {
+    "id": 127,
+    "question": "Tıbbi asepsi ve cerrahi asepsi arasındaki fark nedir?",
+    "answer": "Tibbi asepsi (temiz teknik) patojenlerin sayısını azaltan ve yayılmasını engelleyen uygulamalan içerir.\nCerrahi asepsi (steril teknik) ise, cisimleri ve bölgeyi bütün mikroorganizmalardan arındırmayı ve bu\nkoşulları devam ettirmeyi sağlayan uygulamaları içerir."
+  },
+  {
+    "id": 128,
+    "question": "Dezenfeksiyon ve sterilizasyon kavramlarını tanımlayınız?",
+    "answer": "Dezenfeksiyon, bir cisim veya maddede bulunan patojen mikroorganizmaların fiziksel veya kimyasal\netkenlerle yok edilmesi işlemidir. Sterilizasyon, bir eşya üzerindeki tüm mikroorganizmalarin vegetatif\nve sporlu şekillerinin yok edilmesidir."
+  },
+  {
+    "id": 129,
+    "question": "Parenteral ilaç uygulamalarında hangi asepsi türü uygulanır?",
+    "answer": "Cerrahi"
+  },
+  {
+    "id": 130,
+    "question": "Nozokomiyal enfeksiyonun zararları nelerdir?",
+    "answer": "Hastanede yatan hastalar, belirli bir hastalık nedeniyle yatmışlardır. Organizmalarının normal\nfonksiyonlan bir noktada aksamıştır. Bu duruma eklenen enfeksiyon, hastanın iyileşme şansını daha\nda azaltır veya tehlikeye sokar. Hastane enfeksiyonları hastanın hastanede yatma süresini uzatır,\nihtiyacı olan diğer hastaların hastane yatağından yararlanmasını geciktirir. Ayrıca, iyileşme\nsürecindeki bir hastada oluşabilecek psikolojik çöküntü, tedavinin etkinliğini azaltabilir. Sağlık\nyönünden bu kadar zararlı olan hastane enfeksiyonları, gerek ilaç gerekse tibbi bakım harcamalarını\narttırarak büyük ekonomik kayıplara da neden olmaktadır."
+  },
+  {
+    "id": 131,
+    "question": "\"Kontaminasyon\" ne demektir?",
+    "answer": "Kontaminasyon, bir cismin kullanım amacı dışında kalacak şekilde mikroorganizmalarla kirlenmesi\nveya sterilliğinin bozulmasıdır."
+  },
+  {
+    "id": 132,
+    "question": "Antiseptik madde nedir?",
+    "answer": "Antisepsi, canlı doku üzerinde veya içinde patojen mikroorganizmaların üremelerinin durdurulması\nveya yok edilmesi sürecidir. Bu amaçla kullanılan maddelere antiseptik madde denir."
+  },
+  {
+    "id": 133,
+    "question": "Steril kavramını tanımlayınız.",
+    "answer": "Madde üzerinde patojen veya patojen olmayan hiçbir mikroorganizmanın bulunmaması\nCanlı mikroorganizmalardan ve virüslerden arındırılmış."
+  },
+  {
+    "id": 134,
+    "question": "Dezenfektan solüsyonların hazırlanma ve kullanım kuralları nelerdir?",
+    "answer": "ya da\nSolüsyonları hazırlandığı kapların veya şişelerin; boş iken yıkanması, olası ise steril edilmesi, içinde\nsolüsyon varken ağzının kapakla sürekli kapalı tutulması, her gün taze olarak hazırlanmaları gerekir.\nİşıkla etkinliği bozulan solüsyonlar, koyu renkli cam şişelerde tutulmalıdır."
+  },
+  {
+    "id": 135,
+    "question": "\"Nozokomiyal enfeksiyon\" ne demektir?",
+    "answer": "hastanede oluşan, ancak hastanın hastaneye girişi sırasında inkübasyonda olmayan enfeksiyondur"
+  },
+  {
+    "id": 136,
+    "question": "Tıbbi asepsi ilkeleri nelerdir? 3 tanesini sayınız.",
+    "answer": "1. Eller sık sık ve özellikle gıdalar ellenmeden önce, yemeklerden önce, mendil kullandıktan\nsonra, tuvalete girmeden önce ve sonra ve her hastayla temastan önce ve sonra yıkanmalıdır.\n2. Kirli araçlar, gereçler ve çarşaflar üniformaya değdirilmeden taşınmalıdır.\n3. Kirli yatak çarşafları ve diğer gereçler asla döşemeye bırakılmamalıdır. Aksi halde her iki yüzey\ndaha fazla kirlenir. Hastaların öksürük, hapşırık ve soluğu ile yüz yüze gelinmemelidir. Bu\ndurumlarda ağız ve burunlarını mendille kapatmaları öğretilir.\n4. Araç ve gereçler yıkanırken ve fırçalanırken veya tozu alınırken vücuttan uzakta tutulmalıdır.\nBöylece kirli maddelerin yıkama suları ile saça, yüze ve üniformaya sıçraması önlenir.\n5. Yatak yapma çarçaf değiştirme sirasında toz kaldırmaktan kaçınılmalıdır. Çarşaflar\nsilkelenmemelidir. Aksi halde mikroorganizmalar bir yerden başka bir yere hava yoluyla\ntaşınırlar.\n6. Temizlik işlemleri sırasında en az kirli bölge önce, çok kirli bölge sonra temizlenmelidir.\nBöylece kirlerin temiz bölgeye taşınmaları engellenmiş olur.\n7. Kirli veya kullanılmış araç ve gereçler doğrudan, onlara özel uygun kapların içine konmalıdır.\nVücut atıkları ve akıntılarıyla bulaşmış ıslak gereçler naylon torbalar içine konulduktan sonra\nkirli arabasına atılmalıdır. Böylece temizlik yapan işçiler onlarla temas etmemiş olur.\n8. Banyo veya gargasa suyu gibi kirli sular küvetin kenarına ve üniformaya sıçratılmadan\ndoğrudan kanala dökülmelidir.\n9. Patojenlerle kirlendiğinden şüphelenilen gereçler steril edilmeli ve daha sonra temiz gereç\ngibi kullanılmalıdır.\n10. Mikroorganizmaların yayılmaması için bireysel temizlik ve düzene dikkat edilmelidir. Saçlar\ndüzenli bir şekilde yıkanmalı, ya kısa olmalı ya da mikroorganizmaların yerleşemeyeceği\nşekilde toplu olmalıdır. Tırnaklar kısa ve tırnak uçları pürüzsüz olmalıdır.\n11. Mikroorganizmalar için yerleşim yeri olacağından taşlı yüzükler takılmamalıdır.\n12. Kuruluşun öngördüğü izolasyon tekniklerine uyulmalıdır."
+  },
+  {
+    "id": 137,
+    "question": "Cerrahi asepsi ilkeleri nelerdir?",
+    "answer": "1. Steril bir cisim sadece steril bir cisme değebilir. Steril olmayan bir cisim steril bir cisme\ndeğdiğinde onu kontamine eder.\n2. 2.Steril bir paketin dışı steril değildir. Hemşire paketi açarken, önce kendinden uzak tarafı\naçmalıdır. Paket yakın taraftan açılırsa, paketin içi hemşirenin üniformasından kontamine\nolabilir.\n3. Steril bir kumaş, ya da kağıt üzerine herhangi bir SIVI sıcratılmamalıdır. Mikroorganizmalar,\nıslak kumaş ve kağıtta steril olmayan alandan steril alana sızarlar ve kontaminasyona neden\nolurlar.\n4. Hemşire steril cismi bel düzeyinin üzerinde tutmalıdır, böylece kaza ile kontamine olması\nönlenmiş olur.\n5. Steril bir alan ya da cisim üzerine konuşmaktan, öksürmekten, hapşırmaktan, üzerinden el ve\nkol geçirmekten sakınılmalıdır. Böylece, ağız ve burundaki damlacıkların ya da koldaki bir\npartikülün steril alan üzerine düşmesi önlenir.\n6. Hemşire steril alandan uzaklaşmamalıdır, alana sırtını dönmemelidir. Bu kazara olabilecek\nkontaminasyonları önlemek içindir.\n7. 7.Kesilmiş deriden içeri, sokulan, deriyi delerek içine giren, normalde steril olan vücut\nboşluklarına yerleştirilen her şeyin steril olması gerekir.\n8. Gerektiğinde kuru steril forseps kullanılmalıdır. Dezenfektan içine konan forseps steril olarak\nkabul edilmez.\n9. Eğer bir cismin sterilliğinden en ufak bir kuşku duyuluyorsa, cisim kontamine kabul edilmelidir"
+  },
+  {
+    "id": 138,
+    "question": "%20'lik Povidon lyod solüsyonundan 100 cc. 4'lük Povidon lyod solusyonu hazırlanması için ilave edilmesi gereken distile su ve %10'luk Povidon lyod solüsyonunu hesaplayınız.",
+    "answer": ""
+  },
+  {
+    "id": 139,
+    "question": "100 cc. %5'lik NaHCO, solüsyonu hazırlanması için ilave edilmesi gereken distile su ve NaHCO, miktarlarını hesaplayınız.",
+    "answer": ""
+  },
+  {
+    "id": 140,
+    "question": "İzolasyon türleri nelerdir?",
+    "answer": "• Katı izolasyon,\n• Temas, Solunum Izolasyonu,\n• Tüberküloz, Enterik, Akıntı-Salgı İzolasyonu,\n• Kan-Vücut sıvılarının Izolasyonu"
+  },
+  {
+    "id": 141,
+    "question": "Koruyucu Ters izolasyon nedir?",
+    "answer": "Enfeksiyona karşı direnci zayıflamış olan hastaya olası patojenlerin geçişinin engellenmesidir. Lösemi,\nlenfoma, aplastik anemide uygulanır...\nYASAMSAL BULGULAR"
+  },
+  {
+    "id": 142,
+    "question": "Vücut sıcaklığı nedir? Ates nedir? Tanımlayınız.",
+    "answer": "• Vücut sıcaklığı, vücutta biriken isı ile doğrudan ilişkilidir. Vücudun iç sıcaklığı, derin dokuların\nsıcaklığıdır.\n• Vücudun iç sıcaklığı 37°C dir.\n• Ates (Preks, vücut sıcaklığının yükselmesi, normal sınırların üstüne çıkması anlamına gelir."
+  },
+  {
+    "id": 143,
+    "question": "Nabiz alinan periferik arterleri yazınız.",
+    "answer": "1. Temporal arter\n2. Arteria dorsalis pedis\n3. Popliteal arter\n4. Arteria karotis\n5. Brakial arter\n6. Radyal arter\n7. Posterior tibial arter\n8. Femoral arter"
+  },
+  {
+    "id": 144,
+    "question": "Nabız nedir? Tanımlayınız",
+    "answer": "kalbin her sistolü sırasında aortaya attığı kanın damar duvarına yaptığı basıncın deri yüzeyinde\nhissedilmesidir"
+  },
+  {
+    "id": 145,
+    "question": "Nabızı değerlendirirken hangi özelliklerine dikkat edilir?",
+    "answer": "1. Nabız ritmi,\n2. Nabız Volümü (Dolgunluğu)\n3. Nabız sayısı"
+  },
+  {
+    "id": 146,
+    "question": "Kan basıncını tanımlayınız. Kan basıncı ölçümü sırasında dikkat edilecek ilkeleri açıklayınız.",
+    "answer": "Arteriyel Kan Basıncı: Ventriküllerden arterlere atılan kanın, arter duvarına yaptığı basınçtır. Kan\nbasıncı bir mm²'ye düşen civa basıncı (mmHg) ile ölçülür."
+  },
+  {
+    "id": 147,
+    "question": "Temporal arter termometresi ile vücut sıcaklığı ölçümü nasıl yapılır? Açıklayınız.",
+    "answer": "• Temaslı Temporal Arter Termometresi Vücut Sıcaklığı Ölçümü\n• Termometrenin açma düğmesine basılır\n• Ekranın açılması beklenir.\n• Termometrenin alıcısı alnın ortasında, yüzeyine paralel ve deriye hafifçe dokunacak şekilde\ntutulur. Düğmeye basmaya devam ederken termometre yavaşça alının ortasından alnın yan\ntarafına doğru kaydırılır. Termometre yüzün alt tarafına doğru kaydırılmamalıdır. Bu bölümde\narter daha derinde olduğundan sıcaklık yanlış, daha düşük ölçülebilir.\n• Düğmeye basma sonlandırılınca bip sesi duyulur ve ölçüm değeri ekranda görülür.\n• Yeni ölçüm yapmak için ekrandaki ölçüm değerinin silinmesi beklenir.\n• Birey terli ise ölçüm kulak memesinin arkasından yapılır. Ölçümden önce bireyin saçları\ntoplanarak bölge açığa çıkarılır.\n• Daha sonra termometrenin alıcısı boynun kulak arkasında, mastoidin üstündeki hafif girintili\nbölüme getirilir ve 30 saniye bekledikten sonra aşağı-yukarı 1-2 santimetre kadar hareket\nettirilerek tarama yapılır.\n• Bip sesi gelene kadar bekleyip ölçüm düğmesine basan parmak düğmeden çekilir. Kulak\narkasındaki arter doğru ölçüm için uygun bir referans değildir. Ancak terli bireylerde alından\nyapılacak ölçümlerden daha iyi sonuç verir.\n• Temassiz Temporal Arter Termometresi ile vücut Sıcaklığı Ölçümü\nTemassiz kızılötesi temporal arter termometreler ile yapılan ölçümler temasli termometrelerle\nbenzerdir. Farkı, temassız kızılötesi temporal arter termometre alicisinin deriye temos etmemesidir.\nTemassız kızılötesi temporal arter termometre alnın ortasında, alıcısı deriden 2,5-10 santimetre\n(mesofe termometre modeline göre değişebilir) uzaklıkta tutulur, düğmeye bastıktan sonra alın\nortasından alnın yan tarafına doğru kaydırılarak taranır. Hasta terli ise ölçüm kulak arkasından yapılır."
+  },
+  {
+    "id": 148,
+    "question": "Vücut sıcaklığı ölçme yöntem ve araçları nelerdir?",
+    "answer": "Araçlar:\n1. Civalı cam termometreler\n2. Tek kullanımlık termometreler\n3. Elektronik termometreler\n4. Timpanik membran termoetreleri.\nYöntemler:\n1. Oral yol /Ağız yolu 37\n2. Aksiller yol/Koltuk altı yolu 36.5\n3. Rektal yo! 375\n4. Timpanik membran /Dış kulak yolu 37\n5. Temporal arter/Alin 37"
+  },
+  {
+    "id": 149,
+    "question": "Kan basıncını etkileyen etmenler nelerdir?",
+    "answer": "• Yas\n• Cinsiyet,\n• Gün Boyunca Görülen Değişiklikler,\n• İlaçlar\n• Pozisyon\n• Diğer (Irk, iklim, çevre isist, egzersiz, konuşma yemek yeme, uyku, mesanenin dolu ve gergin\nolması, venöz dönüşü engelleyecek kadar sıkı giysilerin)"
+  },
+  {
+    "id": 150,
+    "question": "Kalbin apeksi nasıl tespit edilir?",
+    "answer": "Sol klavikulanın orta hattından aşağıya doğru elinizle hayali bir çizgi (midklavikular hat) çiziniz. Kalbin\napeksi, bu çizginin sol 5. ve 6. kostalar arasındaki boşluk ile kesiştiği noktaya rastlar. Bu nokta\nsternumdan sola doğru yaklaşık 8 cm. uzaklıkta ve sol memenin altındadır"
+  },
+  {
+    "id": 151,
+    "question": "Ateşi olan hastanın bakımını anlatınız.",
+    "answer": ""
+  },
+  {
+    "id": 152,
+    "question": "Kan basıncı ölçümünde hangi hataları yaptığımızda kan basıncı düşük çıkar?",
+    "answer": "Hata\n• Ölçüm yapan kişide işitme sorunu olması\n• Steteskobun kulaklığının kulağa yanlış yerleştirilmesi\n• Kullanılan manometrede sıfır değerinin ayarlanmamış olması\n• Çevrede gürültü olması\n• Manometrenin göz düzleminden yukarıda olması\n• Sfigmomanometrenin bağlantı borularında ya da steteskobun iletim borusunda çatlak olması\nya da boruların birbirine dolanması\n• Steteskobun alıcısının ölçüm yapılan arterin tam üzerinde olmaması\n• Manşonun havasının çok hızlı boşaltılması\n• Manşonun en yüksek basıç değerine kadar şişirilmesi"
+  },
+  {
+    "id": 153,
+    "question": "Kan basıncı ölçümünde hangi hataları yaptığımızda kan basıncı yüksek çıkar?",
+    "answer": "Hata\n• Kan basıncının herhangi bir fiziksel aktiviteden hemen sonra ölçülmesi\n• Manometrenin göz düzleminden aşağıda olması\n• Manşetin eninin hastaya göre çok dar olması\n• Manşonun havasının çok yavaş boşaltılması\n• Manşetin çok gevşek sarılması\n• Oskültasyon sırasında manşonun yeniden şişirilmesi\nSICAK SOĞUK UYGULAMA"
+  },
+  {
+    "id": 154,
+    "question": "Sıcak uygulamanın endike olduğu durumlar nelerdir?",
+    "answer": "1. Yara iyileşmesini hızlandırmak\n2. Ağrıyı azaltmak, kas gerginliğini ve eklem sertliğini azaltmak\n3. Vücudun bir bölümünü ısıtmak\n4. Ödemi azaltmak"
+  },
+  {
+    "id": 155,
+    "question": "Soğuk uygulamanın endike olduğu durumlar nelerdir?",
+    "answer": "1. Ağrıyı azaltmak\n2. Inflamasyon ve süpürasyonu sınırlamak.\n3. Kanamayı kontrol etmek"
+  },
+  {
+    "id": 156,
+    "question": "Sıcak uygulamaya en fazla kaç dakika devam edilir? Nedenini açıklayınız?",
+    "answer": "• 20-30 dk.dır.\n• Uygulama süresinin uzaması sonucu istenen etkinin tam tersi bir etkinin görülmesine yol\naçar.(Rebound Fenomeni)"
+  },
+  {
+    "id": 157,
+    "question": "Rebound fenomeni nedir?",
+    "answer": "Sıcak ya da soğuk uygulamalarda uygulama sürenin uzaması sonucu istenen etkinin tam tersi bir\netkinin görülmesine Rebound Fenomeni denir\nHEMŞİRELİK SÜRECİ"
+  },
+  {
+    "id": 158,
+    "question": "Hemşirelik süreci nedir ve hangi aşamalardan oluşur?",
+    "answer": "Bilimsel problem çözme yönteminin hemşirelik bakımında kullanılmasıdır. Hemşirelik bakımının\nsunulmasında bireyin sağlığını ya da yaşamını tehdit eden soruna bilimsel yaklaşımlara dayalı çözüm\nbulan, problemlerin çözümünde kullanılan bir yöntemdir.\n1. Verilerin toplanması\n2. Sorunun belirlenmesi\n3. Hemşirelik girişimlerinin planlanması,\n4. Girişimlerin uygulanması\n5. Sonuçların değerlendirilmesi"
+  },
+  {
+    "id": 159,
+    "question": "Klinik uygulamalarda süreç uygulamasında hangi model ve sınıflama sisteminden yararlanıyorsunuz?",
+    "answer": ""
+  },
+  {
+    "id": 160,
+    "question": "Hemşirelik tanı tipleri nelerdir?",
+    "answer": "1. 1.Mevcut/Gerçek Hemşirelik Tanısı\n2. 2.Potansiyel Hemşirelik Tanısı\n3. 3.Sendrom Hemşirelik Tanısı\n4. 4.Olası Hemşirelik Tanısı"
+  }
+]

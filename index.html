@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vizit Destesi</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <div class="main-column">
+      <header class="topbar">
+        <div class="brand">
+          <span class="brand-icon" aria-hidden="true">◇</span>
+          <div class="brand-text">
+            <h1>Vizit Destesi</h1>
+            <p class="deck-title-line" id="active-deck-label">—</p>
+          </div>
+        </div>
+        <div class="stats">
+          <div class="stat">
+            <span class="stat-label">Kalan</span>
+            <span class="stat-value" id="remaining">0</span>
+          </div>
+          <div class="stat">
+            <span class="stat-label">Çekilen</span>
+            <span class="stat-value" id="drawn-count">0</span>
+          </div>
+          <div class="stat">
+            <span class="stat-label">Toplam</span>
+            <span class="stat-value" id="total">0</span>
+          </div>
+        </div>
+      </header>
+
+      <main class="stage">
+        <div class="deck-area">
+          <div class="deck" id="deck" aria-label="Kart destesi"></div>
+          <div class="active-slot" id="active-slot" aria-live="polite"></div>
+        </div>
+
+        <div class="controls">
+          <button type="button" class="btn btn-primary" id="btn-draw">
+            <span class="btn-icon">⇪</span>
+            <span>Kart Çek</span>
+          </button>
+          <button type="button" class="btn btn-secondary" id="btn-shuffle">
+            <span class="btn-icon">⟳</span>
+            <span>Karıştır</span>
+          </button>
+          <button type="button" class="btn btn-ghost" id="btn-reset">
+            <span class="btn-icon">↺</span>
+            <span>Sıfırla</span>
+          </button>
+          <button type="button" class="btn btn-outline" id="btn-open-editor">
+            <span class="btn-icon">✎</span>
+            <span>Desteyi düzenle</span>
+          </button>
+        </div>
+
+        <p class="hint" id="hint"></p>
+      </main>
+
+      <footer class="footer">
+        <span id="status-msg"></span>
+      </footer>
+    </div>
+
+    <aside class="sidebar" aria-label="Deste listesi">
+      <div class="sidebar-head">
+        <h2>Desteler</h2>
+        <p class="sidebar-sub">Tıkla: oynat · Yerel tarayıcıda saklanır (IndexedDB).</p>
+      </div>
+      <div class="sidebar-list" id="deck-list"></div>
+      <div class="sidebar-actions">
+        <button type="button" class="btn-sidebar primary" id="btn-import-json">JSON ile deste ekle</button>
+        <button type="button" class="btn-sidebar" id="btn-new-empty">Yeni boş deste</button>
+        <button type="button" class="btn-sidebar" id="btn-export-json">Seçili desteyi dışa aktar</button>
+        <button type="button" class="btn-sidebar danger" id="btn-delete-deck">Seçili desteyi sil</button>
+      </div>
+      <input type="file" id="file-json-import" accept=".json,application/json" hidden />
+    </aside>
+  </div>
+
+  <!-- Deste düzenleyici -->
+  <div class="modal-backdrop hidden" id="modal-deck-editor" role="dialog" aria-modal="true" aria-labelledby="deck-editor-title">
+    <div class="modal modal-wide">
+      <header class="modal-head">
+        <h2 id="deck-editor-title">Desteyi düzenle</h2>
+        <button type="button" class="btn-close" id="deck-editor-close" aria-label="Kapat">×</button>
+      </header>
+      <div class="modal-body">
+        <div class="toolbar-row">
+          <input type="search" class="input" id="deck-editor-search" placeholder="Soruda ara…" />
+          <button type="button" class="btn btn-small" id="btn-select-all">Tümünü seç</button>
+          <button type="button" class="btn btn-small" id="btn-select-none">Seçimi kaldır</button>
+          <button type="button" class="btn btn-small danger" id="btn-remove-selected">Seçilenleri desteden çıkar</button>
+          <button type="button" class="btn btn-small" id="btn-add-card">+ Kart ekle</button>
+        </div>
+        <div class="card-table-wrap">
+          <table class="card-table">
+            <thead>
+              <tr>
+                <th class="col-check"><input type="checkbox" id="check-master" /></th>
+                <th>#</th>
+                <th>Soru</th>
+                <th class="col-actions">İşlem</th>
+              </tr>
+            </thead>
+            <tbody id="deck-editor-tbody"></tbody>
+          </table>
+        </div>
+      </div>
+      <footer class="modal-foot">
+        <button type="button" class="btn btn-secondary" id="deck-editor-cancel">Kapat</button>
+        <button type="button" class="btn btn-primary" id="deck-editor-save">Kaydet ve kapat</button>
+      </footer>
+    </div>
+  </div>
+
+  <!-- Tek kart düzenleyici -->
+  <div class="modal-backdrop hidden" id="modal-card-editor" role="dialog" aria-modal="true" aria-labelledby="card-editor-title">
+    <div class="modal">
+      <header class="modal-head">
+        <h2 id="card-editor-title">Kartı düzenle</h2>
+        <button type="button" class="btn-close" id="card-editor-close" aria-label="Kapat">×</button>
+      </header>
+      <div class="modal-body">
+        <label class="field">
+          <span>Kart numarası (#)</span>
+          <input type="number" class="input" id="card-edit-id" min="1" max="9999" />
+        </label>
+        <label class="field">
+          <span>Soru</span>
+          <textarea class="textarea" id="card-edit-question" rows="4"></textarea>
+        </label>
+        <label class="field">
+          <span>Cevap</span>
+          <textarea class="textarea" id="card-edit-answer" rows="5"></textarea>
+        </label>
+        <div class="field">
+          <span>Görsel (cihazdan, yalnızca bu tarayıcıda saklanır)</span>
+          <div class="image-row">
+            <input type="file" id="card-edit-image" accept="image/*" />
+            <button type="button" class="btn btn-small" id="card-edit-image-clear">Görseli kaldır</button>
+          </div>
+          <div class="image-preview hidden" id="card-edit-preview-wrap">
+            <img id="card-edit-preview" alt="" />
+          </div>
+          <p class="field-hint">Öneri: küçük dosya (&lt; ~500 KB). Büyük görseller tarayıcı kotasını doldurabilir.</p>
+        </div>
+      </div>
+      <footer class="modal-foot">
+        <button type="button" class="btn btn-secondary" id="card-editor-cancel">İptal</button>
+        <button type="button" class="btn btn-primary" id="card-editor-save">Kaydet</button>
+      </footer>
+    </div>
+  </div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
