@@ -21,7 +21,7 @@ const MAX_IMAGE_BYTES = 600 * 1024;
 const DECK_EL = document.getElementById("deck");
 const ACTIVE_EL = document.getElementById("active-slot");
 const REMAINING_EL = document.getElementById("remaining");
-const DRAWN_EL = document.getElementById("drawn-count");
+const LEARNED_EL = document.getElementById("learned-count");
 const TOTAL_EL = document.getElementById("total");
 const BTN_DRAW = document.getElementById("btn-draw");
 const BTN_SHUFFLE = document.getElementById("btn-shuffle");
@@ -117,6 +117,7 @@ function normalizeImportedPayload(data) {
       category: "",
       builtIn: false,
       cards: data.map((c, i) => normalizeCard(c, i)),
+      learnedUids: [],
     };
   }
   if (data && Array.isArray(data.cards)) {
@@ -125,9 +126,15 @@ function normalizeImportedPayload(data) {
       category: String(data.category || "").trim(),
       builtIn: false,
       cards: data.cards.map((c, i) => normalizeCard(c, i)),
+      learnedUids: Array.isArray(data.learnedUids) ? data.learnedUids.slice() : [],
     };
   }
   throw new Error("JSON: kök dizi veya { name?, category?, cards: [...] } olmalı.");
+}
+
+function ensureDeckShape(deck) {
+  if (!Array.isArray(deck.learnedUids)) deck.learnedUids = [];
+  return deck;
 }
 
 async function readFileAsText(file) {
@@ -155,12 +162,17 @@ function setStatus(msg, type = "info") {
 }
 
 function updateStats() {
+  const learnedCount = activeDeck?.learnedUids?.length ?? 0;
   REMAINING_EL.textContent = sessionRemaining.length;
-  DRAWN_EL.textContent = drawn.length;
+  LEARNED_EL.textContent = learnedCount;
   TOTAL_EL.textContent = activeDeck ? activeDeck.cards.length : 0;
   BTN_DRAW.disabled = sessionRemaining.length === 0 || isAnimating;
   BTN_SHUFFLE.disabled = sessionRemaining.length < 2 || isAnimating;
-  BTN_RESET.disabled = drawn.length === 0 || isAnimating;
+  const hasState =
+    learnedCount > 0 ||
+    drawn.length > 0 ||
+    (activeDeck && sessionRemaining.length < activeDeck.cards.length);
+  BTN_RESET.disabled = !hasState || isAnimating;
 }
 
 function delay(ms) {
@@ -197,8 +209,8 @@ function createCardEl(card, withFront, categoryLabel) {
       <div class="front-actions">
         <button type="button" class="btn-mini primary full" data-act="toggle-answer">Cevabı Göster</button>
         <div class="front-actions-row">
-          <button type="button" class="btn-mini danger" data-act="remove-permanent" title="Bu kart bir daha gelmesin">Desteden çıkar</button>
-          <button type="button" class="btn-mini" data-act="put-back" title="Bu kartı havuza geri at, tekrar gelsin">Desteye tekrar ekle</button>
+          <button type="button" class="btn-mini danger" data-act="learn" title="Bu kartı öğrendim — sıfırlayana kadar gelmesin">Öğrendim</button>
+          <button type="button" class="btn-mini" data-act="put-back" title="Bu kartı havuza geri at, tekrar gelsin">Tekrar gör</button>
         </div>
       </div>
     </div>`
@@ -231,8 +243,8 @@ function attachFrontFace(cardEl, card, categoryLabel) {
     <div class="front-actions">
       <button type="button" class="btn-mini primary full" data-act="toggle-answer">Cevabı Göster</button>
       <div class="front-actions-row">
-        <button type="button" class="btn-mini danger" data-act="remove-permanent" title="Bu kart bir daha gelmesin">Desteden çıkar</button>
-        <button type="button" class="btn-mini" data-act="put-back" title="Bu kartı havuza geri at, tekrar gelsin">Desteye tekrar ekle</button>
+        <button type="button" class="btn-mini danger" data-act="learn" title="Bu kartı öğrendim — sıfırlayana kadar gelmesin">Öğrendim</button>
+        <button type="button" class="btn-mini" data-act="put-back" title="Bu kartı havuza geri at, tekrar gelsin">Tekrar gör</button>
       </div>
     </div>
   `;
@@ -267,13 +279,19 @@ function clearActive() {
   }
 }
 
+function poolCards() {
+  if (!activeDeck) return [];
+  const learned = new Set(activeDeck.learnedUids || []);
+  return activeDeck.cards.filter((c) => !learned.has(c.uid));
+}
+
 function resetSession() {
   clearActive();
   if (!activeDeck) {
     sessionRemaining = [];
     drawn = [];
   } else {
-    sessionRemaining = shuffle(activeDeck.cards.slice());
+    sessionRemaining = shuffle(poolCards());
     drawn = [];
   }
   renderVisualDeck();
@@ -329,8 +347,9 @@ function bindCardActions(cardEl) {
     const uid = cardEl.dataset.uid;
     if (!uid || !activeDeck) return;
 
-    if (act === "remove-permanent") {
-      activeDeck.cards = activeDeck.cards.filter((c) => c.uid !== uid);
+    if (act === "learn") {
+      if (!Array.isArray(activeDeck.learnedUids)) activeDeck.learnedUids = [];
+      if (!activeDeck.learnedUids.includes(uid)) activeDeck.learnedUids.push(uid);
       sessionRemaining = sessionRemaining.filter((c) => c.uid !== uid);
       drawn = drawn.filter((c) => c.uid !== uid);
       try {
@@ -341,10 +360,8 @@ function bindCardActions(cardEl) {
       flyOutCard(cardEl, "left", () => {
         clearActive();
         renderVisualDeck();
-        renderDeckSidebar();
-        updateActiveLabel();
         updateStats();
-        setStatus("Kart desteden kalıcı olarak çıkarıldı.", "ok");
+        setStatus("Kart 'öğrenildi' olarak işaretlendi. Sıfırla ile geri gelir.", "ok");
       });
       return;
     }
@@ -447,9 +464,26 @@ async function resetDrawn() {
   isAnimating = true;
   setStatus("Deste oyunu sıfırlanıyor…");
   clearActive();
+
+  if (activeDeck.builtIn) {
+    try {
+      await rehydrateBuiltInDeck(activeDeck);
+    } catch (err) {
+      console.warn("Default deste yeniden yüklenemedi:", err);
+    }
+  }
+  activeDeck.learnedUids = [];
+  try {
+    await persistDeck(activeDeck);
+  } catch (err) {
+    console.error(err);
+  }
+
   sessionRemaining = shuffle(activeDeck.cards.slice());
   drawn = [];
   renderVisualDeck();
+  renderDeckSidebar();
+  updateActiveLabel();
   await delay(180);
   const cards = Array.from(DECK_EL.children);
   cards.forEach((c, idx) => {
@@ -509,6 +543,7 @@ function updateActiveLabel() {
 async function selectDeck(id) {
   const d = decks.find((x) => x.id === id);
   if (!d) return;
+  ensureDeckShape(d);
   activeDeckId = id;
   activeDeck = d;
   await setMeta(db, META_ACTIVE, id);
@@ -531,6 +566,25 @@ async function ensureDefaultDeck() {
   await setMeta(db, META_ACTIVE, payload.id);
 }
 
+async function rehydrateBuiltInDeck(deck) {
+  const res = await fetch("default_deck.json");
+  if (!res.ok) throw new Error("default_deck.json bulunamadı");
+  const raw = await res.json();
+  const fresh = normalizeImportedPayload(raw);
+
+  const byId = new Map(deck.cards.map((c) => [c.id, c]));
+  const merged = fresh.cards.map((c) => {
+    const existing = byId.get(c.id);
+    if (existing) {
+      return { ...c, uid: existing.uid };
+    }
+    return c;
+  });
+
+  deck.cards = merged;
+  return deck;
+}
+
 async function initDbAndDecks() {
   db = await openDb();
   decks = await getAllDecks(db);
@@ -538,6 +592,7 @@ async function initDbAndDecks() {
     await ensureDefaultDeck();
     decks = await getAllDecks(db);
   }
+  decks.forEach(ensureDeckShape);
   activeDeckId = (await getMeta(db, META_ACTIVE)) || decks[0]?.id || null;
   activeDeck = decks.find((d) => d.id === activeDeckId) || decks[0] || null;
   if (activeDeck) activeDeckId = activeDeck.id;
@@ -555,6 +610,7 @@ async function addDeckFromPayload(payload) {
     builtIn: !!payload.builtIn,
     updatedAt: Date.now(),
     cards: payload.cards,
+    learnedUids: Array.isArray(payload.learnedUids) ? payload.learnedUids : [],
   };
   decks.push(deck);
   await putDeck(db, deck);
@@ -725,6 +781,9 @@ async function removeSelectedCardsFromDeck() {
   activeDeck.cards = activeDeck.cards.filter((c) => !uids.has(c.uid));
   sessionRemaining = sessionRemaining.filter((c) => !uids.has(c.uid));
   drawn = drawn.filter((c) => !uids.has(c.uid));
+  if (Array.isArray(activeDeck.learnedUids)) {
+    activeDeck.learnedUids = activeDeck.learnedUids.filter((u) => !uids.has(u));
+  }
   await persistDeck(activeDeck);
   renderDeckEditorTable();
   syncMasterCheck();

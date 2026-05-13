@@ -44,8 +44,16 @@ Yeni deste için dosya ya **dizi** ya da **nesne**:
 
 Çekilen kartta üç buton vardır:
 - **Cevabı Göster / Gizle**: cevabı aç-kapat.
-- **Desteden çıkar**: kart **kalıcı** olarak desteden silinir (Toplam azalır, IndexedDB'ye yazılır).
-- **Desteye tekrar ekle**: kart havuza rastgele bir konuma geri konur, tekrar karşına çıkar (Toplam değişmez).
+- **Öğrendim**: kart "öğrenildi" olarak işaretlenir, oturum boyunca **bir daha gelmez**. `Sıfırla`'ya basılınca tüm öğrenilenler geri yüklenir (Toplam değişmez).
+- **Tekrar gör**: kart havuza rastgele bir konuma geri konur, tekrar karşına çıkar (Toplam değişmez).
+
+Kartın boş alanına (buton dışındaki yer) veya deste yığınına tıklayınca da etkileşimler tetiklenir.
+
+## Sıfırla davranışı
+
+`Sıfırla` butonu:
+- Öğrenilenleri temizler — tüm kartlar yeniden havuza döner.
+- Built-in (varsayılan) deste için `default_deck.json`'dan eksik kartları otomatik geri yükler. Yani 160 kartlık deste her zaman tam 160 karta döner.
 
 ## Rastgelelik
 
